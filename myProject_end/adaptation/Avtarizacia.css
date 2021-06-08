@@ -49,9 +49,7 @@
     .modal-form {
         padding: 5px;
     }
-    .chekbox {
-        margin-top: 28px;
-    }
+
     .txt_pinck {
         font-size: 12px;
         margin-left: 83px;
@@ -86,9 +84,7 @@
     .modal-form {
         padding: 3px;
     }
-    .chekbox {
-        margin-top: 32px;
-    }
+
     .txt_pinck {
         font-size: 12px;
         margin-left: 83px;
@@ -148,6 +144,15 @@
         .icon_close {
             font-size: 15px;
             margin-left: 180px;
+        }
+        .form-img {
+            height: 192px !important;
+        }
+        .row_1_checkbox_div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 7px;
         }
 
     }

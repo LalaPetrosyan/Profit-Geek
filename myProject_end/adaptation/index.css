@@ -272,4 +272,9 @@
     .fas{
         font-size: 20px;
     }
+    .slick-next {
+        top: 50px;
+        right: -31px;
+        display: none;
+    }
 }
