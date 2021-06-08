@@ -1,0 +1,215 @@
+body{
+    background-color: #000000 !important;
+}
+a{
+    text-decoration: none;
+    color: white !important;
+
+}
+
+.container-profile-pinck{
+    height: 600px;
+    /*width: 26%;*/
+    background: #000000;
+    border: 5px solid #FA0E8F;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(250, 14, 143, 0.7);
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 70px;
+}
+.container-profile-blue{
+    position: absolute;
+    height: 600px;
+    /*width: 22%;*/
+    background: #000000;
+    border: 5px solid #11C5FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(17, 197, 255, 0.7);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: -20px;
+
+
+}
+.container-profile{
+    display: flex;
+}
+.icon-item{
+    color: white;
+}
+.active{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FA0E8F;
+}
+.up_row_area{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.up_row1{
+    /*width: 300px;*/
+    height: 262px;
+    background: #000000;
+    border: 5px solid #FA0E8F;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(250, 14, 143, 0.7);
+    border-radius: 20px;
+
+}
+.up_row2{
+    /*width: 400px;*/
+    height: 262px;
+    background: #000000;
+    border: 5px solid #FA0E8F;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(250, 14, 143, 0.7);
+    border-radius: 20px;
+
+}
+.prof-title{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    color: #11C5FF;
+    text-shadow: 0px 0px 30px #11C5FF;
+    text-align: center;
+}
+.prof-img{
+    width: 75px;
+    height: 75px;
+    border: 2px solid #11C5FF;
+    box-sizing: border-box;
+    border-radius:50%;
+    text-align: center;
+    margin-left: 50px;
+}
+.prof-title1{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.uprow_btn{
+    width: 187px;
+    height: 37px;
+    background: #000000;
+    border: 1px solid #11C5FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(17, 197, 255, 0.5);
+    border-radius: 20px;
+    color: #11C5FF;
+    text-align: center;
+    margin-top: 10px;
+}
+.ok_btn{
+    width: 187px;
+    height: 37px;
+    background: #000000;
+    border: 1px solid #11C5FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(17, 197, 255, 0.5);
+    border-radius: 20px;
+    color: #11C5FF;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.ok_btn:hover{
+    background: #11C5FF;
+    color: white;
+}
+.prof_inp_input{
+    padding: 5px;
+    width: 80%;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.prof_inp {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prof_inp_input1{
+    width: 45%;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.prof_inp1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.down_row_area{
+
+
+    background: #000000;
+    border: 5px solid #FA0E8F;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(250, 14, 143, 0.7);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.down{
+    display: flex;
+    justify-content: center;
+}
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 600px;
+    padding: 40px;
+    background: transparent;
+    border: 5px solid #11C5FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(17, 197, 255, 0.7);
+    border-radius: 20px;
+
+}
+.icon-item{
+    color: #11C5FF;
+    text-shadow: 0px 0px 30px #11C5FF;
+    padding: 10px;
+}
+.icon-item i {
+    font-size: 22px;
+    margin-right: 20px;
+}
+.a_profil, .a_chat, .a_balanc, .a_comm, .a_otzivi {
+    color: white !important;
+}
+.a_profil:hover, .a_chat:hover, .a_balanc:hover, .a_comm:hover, .a_otzivi:hover {
+    color: #FA0E8F  !important;
+}
+.a_profil{
+    color: #FA0E8F  !important;
+
+}
+.prof_inp_input1{
+    box-shadow: 0px 0px 10px white;;
+}
+.prof_inp_input1 placeholder{
+    text-shadow: 0px 0px 10px white;;
+}
+.prof_inp_input{
+    box-shadow: 0px 0px 10px white;;
+}
+.prof_inp_input placeholder{
+    text-shadow: 0px 0px 30px white !important;
+}

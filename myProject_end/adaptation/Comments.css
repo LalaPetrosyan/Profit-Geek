@@ -1,0 +1,189 @@
+
+
+@media only screen and (max-width: 768px){
+    .div1{
+        height: 250px;
+        padding: 10px;
+    }
+    .div2{
+        margin-top: 20px;
+        width: 510px;
+        margin-left: 10px;
+    }
+    }
+@media only screen and (max-width: 425px){
+
+    .div1 {
+
+        width: 510px !important;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 767px){
+    .icon_item{
+        display: flex;
+    }
+    .div1 {
+        height: 70px;
+        font-size: 12px;
+    }
+    .container_chat{
+        margin-top: 20px !important;
+    }
+    .icon-item {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media only screen and (max-width: 470px){
+    .icon-item {
+        padding: 7px;
+    }
+
+}
+@media only screen and (max-width: 425px){
+
+    .chat-button {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .chat-title{
+        font-size:15px;
+    }
+    .admin_cont {
+        width: 300px;
+
+    }
+
+}
+@media only screen and (max-width: 400px){
+    .div1{
+        height: 60px;
+        font-size: 8px;
+    }
+    .container-admin {
+        padding: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 385px){
+    .admin_cont {
+        width: 280px;
+
+    }
+}
+@media only screen and (max-width: 350px){
+    .container_chat {
+        height: 575px;
+        border: 2px solid #FA0E8F;
+    }
+    .chat-button {
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+    }
+    .img_chat {
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .admin_cont {
+        width: 240px;
+    }
+    .chat-pink {
+        font-size: 13px;
+    }
+    .area_txt {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .icon-item {
+        padding: 3px;
+    }
+    .chat-button {
+        width: 100px;
+        height: 26px;
+        font-size: 8px;
+    }
+    .admin_cont {
+        width: 210px;
+
+    }
+    .img_chat {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .txt-area {
+        margin-left: 10px;
+    }
+    .img_chat {
+        height: 40px;
+        width: 40px;
+    }
+    .div1 {
+        height: 45px;
+        font-size: 9px;
+        border: 2px solid #11C5FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 306px !important;
+    }
+    .icon-item i {
+        font-size: 17px;
+    }
+    .container-com {
+        padding:0px;
+    }
+    .div2 {
+        width: 290px !important;
+        border: 1px solid #FA0E8F;
+
+    }
+    .com-txt {
+        font-size: 15px;
+    }
+    .com-time {
+        font-size: 9px;
+    }
+    .da {
+        font-size: 12px;
+    }
+    .comcom {
+        font-size: 10px;
+    }
+    .heart-txt {
+        font-size: 7px;
+    }
+    .heart-txt img{
+       height: 15px;
+    }
+    .com-txt {
+        font-size: 12px;
+    }
+    .basket {
+    translateX(90px);
+
+        font-size: 10px;
+    }
+    .icon_close {
+        font-size: 15px;
+        margin-left: 180px;
+    }
+    .fas{
+        font-size: 20px;
+    }
+    }

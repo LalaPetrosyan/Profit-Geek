@@ -1,0 +1,225 @@
+.dropdown_p {
+    display: none;
+}
+@media only screen and (max-width: 991px) { 
+    .row_2_img img {
+        width: 100%;
+    }
+    .row_2_img {
+        width: 90%;
+    }
+    .row_2_div2 {
+        width: 90%;
+    }
+    .row_1_div1 {
+        transform: translateX(120px);
+    }
+    .col_9_row1 {
+        width: 65%;
+    }
+    .row_3_div3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+    }
+    .position_icon_search {
+        top: 7px;
+        right: 10px;
+    }
+    .input_search {
+        padding: 6px;
+    }
+    nav {
+        margin-bottom: 10px;
+    }
+    .row_2_a a {
+        font-size: 23px;
+    }
+    .row_2_p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 767px) { 
+    .row_3_div3 {
+        width: 40%;
+    }
+    .col_9_row1 {
+        width: 60%;
+    }
+    .row_1_div1 {
+        font-size: 17px;
+        transform: translateX(88px);
+    }
+    .input_search {
+        padding: 4px;
+    }
+    .input_search::placeholder {
+        font-size: 13px;
+    }
+    .row_2_a a {
+        font-size: 19px;
+    }
+    .row_2_p {
+        font-size: 13px;
+    }
+    .slack-next::before {
+        font-size: 80px;
+    }
+    .row_2_arrow {
+        justify-content: flex-end;
+    }
+    .row_2_div2 {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 559px) { 
+    .dropdown_p {
+        display: flex;
+    }
+    .more {
+        display: none;
+    }
+    .p_btn {
+        color: #FA0E8F;
+        cursor: pointer;
+    }
+    .row_2_p p {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .dropdown_p {
+        width: 21%;
+    }
+    .slack-next::before {
+        font-size: 70px;
+    }
+    .row_2_arrow {
+        align-items: flex-start;
+    }
+    .slack-next {
+        transform: translateY(-15px);
+    }
+    .col-1 {
+        width: 5%;
+    }
+    .col_9 {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 480px) { 
+    .dropdown_p {
+        width: 16%;
+    }
+    .row_1_div1 {
+        font-size: 15px;
+        transform: translateX(74px);
+    }
+    .input_search {
+        padding: 2px;
+    }
+    .position_icon_search {
+        top: 4px;
+        right: 7px;
+    }
+    .row_2_a a {
+        font-size: 17px;
+    }
+    .row_2_p {
+        font-size: 12px;
+    }
+    .row_2_p p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    nav {
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width: 380px) {  
+    .row_1_div1 {
+        font-size: 14px;
+        transform: translateX(56px);
+    }
+    .dropdown_p {
+        width: 19%;
+    }
+    .col_9_row1 {
+        width: 55%;
+    }
+    .row_3_div3 {
+        width: 45%;
+    }
+    .input_search {
+        padding: 0px;
+        padding-left: 2px;
+    } 
+    .position_icon_search {
+        top: 5px;
+        right: 5px;
+        font-size: 12px;
+    }
+    .input_search::placeholder {
+        font-size: 10px;
+    }
+    .slack-next::before {
+        font-size: 55px;
+    }
+    .row_2_a a {
+        font-size: 15px;
+    }
+    .row_2_p p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .row_14_container .row_14_numbers {
+        width: 30px;
+        height: 30px;
+    }
+    .row_14_numbers p {
+        font-size: 12px;
+    }
+    .row_14_numbers {
+        margin: 4px;
+    }
+    .slack_next {
+        transform: translateY(-8px);
+    }
+    .slack_prev {
+        transform: translateY(-8px);
+    }
+}
+@media only screen and (max-width: 360px) {  
+    .row_1_div1 {
+        font-size: 12px;
+        transform: translateX(53px);
+    }
+}
+@media only screen and (max-width: 328px) {  
+    .col_9 {
+        width: 74%;
+    }
+    .nav-bar-btn i {
+        font-size: 16px;
+        transform: translateX(-1.5px);
+    }
+    #buttonBurger {
+        width: 37px;
+        height: 33px;
+    }
+    .row_2_p p {
+        font-size: 10px;
+    }
+    .dropdown_p {
+        width: 29%;
+    }
+    .icon_close {
+        font-size: 15px;
+        margin-left: 180px;
+    }
+    .fas{
+        font-size: 20px;
+    }
+}

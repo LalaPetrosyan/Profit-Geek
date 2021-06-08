@@ -1,0 +1,305 @@
+@media only screen and (max-width: 910px){
+    .prof-title{
+        font-size: 15px;
+    }
+    .prof-img {
+        width: 65px;
+        height: 65px;
+        margin-left: 20px;
+
+    }
+    .prof-img img{
+        height: 60px;
+        width: 60px;
+    }
+    .uprow_btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    }
+@media only screen and (max-width: 767px){
+    .div1{
+        height: 245px;
+        padding: 0;
+    }
+    .up_row1{
+            width: 160px;
+            margin-left: -30px;
+    }
+    .up_row2{
+        width: 300px;
+
+}
+.pink-row{
+    margin-top: 20px;
+}
+.down_row_area {
+ margin-left: 0;
+}
+
+}
+@media only screen and (max-width: 515px){
+    .div1{
+        height: 245px;
+        padding: 0;
+    }
+    .up_row1{
+            width: 140px;
+            margin-left: -30px;
+    }
+    .up_row2{
+        width: 290px;
+
+}
+.pink-row{
+    margin-top: 20px;
+}
+.down_row_area {
+ margin-left: 0;
+}
+
+}
+@media only screen and (max-width: 480px){
+    .div1{
+        height: 220px;
+        font-size:12px;
+    }
+    .up_row1{
+            width: 120px;
+            height: 215px;
+            margin-left: -30px;
+    }
+    .up_row2 {
+        width: 270px;
+        height: 215px;
+    }
+.uprow_btn {
+    width: 80px;
+    height: 24px;
+    font-size: 9px;
+}
+.prof-img img {
+    height: 30px;
+    width: 30px;
+}
+.prof-img {
+    height: 40px;
+    width: 40px;
+}
+.prof-title{
+    font-size:13px;
+}
+.prof-title1{
+    font-size:10px
+}
+.pink-row{
+    margin-top: 20px;
+}
+.down_row_area {
+ margin-left: 0;
+}
+.prof_inp_input {
+    padding: 0px;
+    font-size: 12px;
+    width: 90%;
+}
+.prof_inp1 {
+    padding: 5px;
+    font-size: 12px;
+}
+.ok_btn {
+    width: 110px;
+    height: 29px;
+    font-size: 12px;
+}
+}
+@media only screen and (max-width: 320px){
+    .up_row1 {
+        width: 100px;
+        height: 140px;
+        border: 2px solid #FA0E8F;
+    }
+    .up_row2 {
+        width: 180px;
+        height: 140px;
+        border: 2px solid #FA0E8F;
+    }
+    .prof-title {
+        font-size: 10px;
+    }
+    .prof-img img {
+        height: 20px;
+        width: 20px;
+    }
+    .prof-img  {
+        height: 25px;
+        width: 25px;
+    }
+    .prof-title1 {
+        font-size: 6px;
+    }
+    .uprow_btn {
+        width: 57px;
+        height: 15px;
+        font-size: 7px;
+    }
+    .prof_inp_input {
+        padding: 1px;
+        font-size: 6px;
+    }
+    .down_row_area{
+        margin-top: 30px;
+    }
+    .prof_inp_input1 {
+        font-size: 10px;
+    }
+    .ok_btn {
+        margin-left: 95px;
+        width: 90px;
+        height: 24px;
+        font-size: 7px;
+        margin-bottom: 10px;
+    }
+    .uprow_btn {
+        width: 57px;
+        height: 15px;
+        font-size: 7px;
+    }
+    .down_row_area {
+        margin-top: 30px;
+        margin-bottom: 50px !important;
+        border: 2px solid #FA0E8F;
+    }
+}
+@media only screen and (max-width: 767px){
+    .icon_item{
+        display: flex;
+    }
+    .div1 {
+        height: 70px;
+        font-size: 12px;
+        padding: 0.0px;
+    }
+    .container_chat{
+        margin-top: 20px !important;
+    }
+    .icon-item {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media only screen and (max-width: 470px){
+    .icon-item {
+        padding: 7px;
+    }
+
+}
+@media only screen and (max-width: 425px){
+
+    .chat-button {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .chat-title{
+        font-size:15px;
+    }
+    .admin_cont {
+        width: 300px;
+
+    }
+
+}
+@media only screen and (max-width: 400px){
+    .div1{
+        height: 60px;
+        font-size: 8px;
+    }
+    .container-admin {
+        padding: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 385px){
+    .admin_cont {
+        width: 280px;
+
+    }
+}
+@media only screen and (max-width: 350px){
+    .container_chat {
+        height: 575px;
+        border: 2px solid #FA0E8F;
+    }
+    .chat-button {
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+    }
+    .img_chat {
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .admin_cont {
+        width: 240px;
+    }
+    .chat-pink {
+        font-size: 13px;
+    }
+    .area_txt {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .icon-item {
+        padding: 3px;
+    }
+    .chat-button {
+        width: 100px;
+        height: 26px;
+        font-size: 8px;
+    }
+    .admin_cont {
+        width: 210px;
+
+    }
+    .img_chat {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .txt-area {
+        margin-left: 10px;
+    }
+    .img_chat {
+        height: 40px;
+        width: 40px;
+    }
+    .div1 {
+        height: 45px;
+        font-size: 9px;
+        border: 2px solid #11C5FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-item i {
+        font-size: 17px;
+    }
+    .icon_close {
+        font-size: 15px;
+        margin-left: 180px;
+    }
+    .fas{
+        font-size: 20px;
+    }
+}

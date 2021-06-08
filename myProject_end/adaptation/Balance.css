@@ -1,0 +1,353 @@
+@media only screen and (max-width: 1199px) {
+    .table > :not(caption) > * > * {
+        padding: 0.6rem 0.2rem !important;
+        font-size: 13px !important;
+    }
+    .balanc_row_3 p {
+        font-size: 15px;
+    }
+    .button_2 {
+        font-size: 15px;
+    }
+    .button_1 {
+        font-size: 15px;
+    }
+    .row_2_div1_p1 {
+        font-size: 15px;
+
+    }
+    .row_2_div1_p2 {
+        font-size: 15px;
+
+    }
+    .row_2_div1_a {
+        font-size: 13px;
+    }
+
+    }
+
+@media only screen and (max-width: 992px) {
+    .table > :not(caption) > * > * {
+        padding: 0.2rem 0.2rem !important;
+        font-size: 10px !important;
+    }
+
+    .row-but2{
+        display: flex;
+        justify-content: center;
+    }
+    .div3_button{
+        display: none;
+    }
+    .col-8 {
+        flex: 0 0 auto;
+        width: 93.666667% !important;
+    }
+}
+
+
+    @media only screen and (max-width: 767px){
+
+        .table > :not(caption) > * > * {
+            padding: 0.2rem 0.2rem !important;
+            font-size: 10px !important;
+
+        }
+        .div2{
+            margin-top: 20px;
+        }
+
+
+
+
+        .icon_item{
+        display: flex;
+    }
+    .div1 {
+        height: 70px;
+        font-size: 12px;
+        padding: 0.0px;
+    }
+    .container_chat{
+        margin-top: 20px !important;
+    }
+    .icon-item {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media only screen and (max-width: 533px) {
+    .col-8 {
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+    .balanc_row_3 p {
+        font-size: 12px;
+    }
+    .button_2 {
+        font-size: 12px;
+    }
+    .button_1 {
+        font-size: 12px;
+    }
+    .row_2_div1_p1 {
+        font-size: 12px;
+
+    }
+    .row_2_div1_p2 {
+        font-size: 12px;
+
+    }
+    .row_2_div1_a {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 522px) {
+    .table > :not(caption) > * > * {
+        padding: 0.1rem 0.1rem !important;
+        font-size: 8px !important;
+
+    }
+    .div3_button{
+        display: none;
+    }
+
+    .row_2_div1_p1 {
+        font-size: 9px;
+        margin-top: 10px;
+    }
+    .row_2_div1_p2 {
+        font-size: 11px;
+    }
+    .button_2 p {
+        font-size: 10px;
+    }
+    .button_1 p {
+        font-size: 10px;
+    }
+    .div_plus_a {
+        width: 10px;
+        height: 10px;
+        font-size: 15px;
+    }
+    .div2{
+        height: 500px;
+    }
+
+}
+@media only screen and (max-width: 470px){
+    .icon-item {
+        padding: 7px;
+    }
+
+}
+@media only screen and (max-width: 420px){
+    .button_2 img {
+        margin-right: 5px;
+        height: 15px;
+        width: 15px;
+    }
+    .button_1 img {
+        margin-right: 5px;
+        height: 15px;
+        width: 15px;
+    }
+    .button_2 p {
+        font-size: 8px;
+    }
+    .button_1 p {
+        font-size: 8px;
+    }
+    .row_2_div1_p1 {
+        font-size: 9px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+    .row_2_div1_p2 {
+        font-size: 11px;
+        margin-left: -15px;
+    }
+}
+@media only screen and (max-width: 425px){
+
+    .chat-button {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .chat-title{
+        font-size:15px;
+    }
+    .admin_cont {
+        width: 300px;
+
+    }
+
+}
+@media only screen and (max-width: 400px){
+    .div1{
+        height: 50px;
+        font-size: 10px;
+    }
+    .container-admin {
+        padding: 0px;
+    }
+    .icon-item {
+        padding: 2px;
+    }
+    .a_otzivi {
+        font-size: 10px !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 385px){
+    .admin_cont {
+        width: 280px;
+
+    }
+}
+@media only screen and (max-width: 350px){
+    .container_chat {
+        height: 575px;
+        border: 2px solid #FA0E8F;
+    }
+    .chat-button {
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+    }
+    .img_chat {
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .admin_cont {
+        width: 240px;
+    }
+    .chat-pink {
+        font-size: 13px;
+    }
+    .area_txt {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .icon-item {
+        padding: 3px;
+    }
+    .chat-button {
+        width: 90px;
+        height: 25px;
+        font-size: 7px;
+    }
+    .admin_cont {
+        width: 210px;
+
+    }
+    .img_chat {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .txt-area {
+        margin-left: 10px;
+    }
+    .img_chat {
+        height: 40px;
+        width: 40px;
+    }
+    .div1 {
+        height: 45px;
+        width: 300px;
+        font-size: 9px;
+        border: 2px solid #11C5FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-item i {
+        font-size: 17px;
+    }
+    .container_chat{
+        width: 93% !important;
+        margin-left: 10px !important;
+    }
+    .container-admin{
+        margin-left: -40px;
+    }
+    .admin_cont {
+        width: 250px;
+    }
+    .icon-item {
+        padding: 3px;
+    }
+    .chat-button {
+        width: 100px;
+        height: 26px;
+        font-size: 8px;
+    }
+    .admin_cont {
+        width: 210px;
+
+    }
+    .img_chat {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .txt-area {
+        margin-left: 10px;
+    }
+    .img_chat {
+        height: 40px;
+        width: 40px;
+    }
+    .div1 {
+        height: 45px;
+        font-size: 9px;
+        border: 2px solid #11C5FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-item i {
+        font-size: 17px;
+    }
+    .div2_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row_2_div1_p1 {
+        font-size: 6px;
+    }
+    .row_2_div1_p2 {
+        font-size: 8px;
+    }
+    .table > :not(caption) > * > * {
+        padding: 0.1rem 0.1rem !important;
+        font-size: 7px !important;
+        margin-top: 5px !important;
+
+    }
+    .icon-item {
+        width: 50px;
+    }
+    .icon_close {
+        font-size: 15px;
+        margin-left: 180px;
+    }
+    .fas{
+        font-size: 20px;
+    }
+
+    .a_profil, .a_chat, .a_balanc, .a_comm, .a_otzivi {
+        font-size: 8px !important;
+    }
+}

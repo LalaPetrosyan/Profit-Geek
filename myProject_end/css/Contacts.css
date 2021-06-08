@@ -1,0 +1,36 @@
+body {
+	background-color: #000000 !important;
+}
+.header_row_1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 28px;
+	color: #11C5FF;
+	cursor: pointer;
+	text-shadow: 0px 0px 30px #11C5FF;
+}
+.row_1 {
+	display: flex;
+}
+.row_1_container {
+	display: flex;
+	width: 85%;
+}
+.row1_div1_p {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 27px;
+	color: #FA0E8F;
+	text-shadow: 0px 0px 30px #FA0E8F;
+	padding-right: 30px;
+}
+.row1_div2_p {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 27px;
+	color: #FFFFFF;
+	
+}

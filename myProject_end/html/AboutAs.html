@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/AboutAs.css">
+    <link rel="stylesheet" href="../css/checkbox_forms.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/scrol.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../adaptation/AbautUs.css">
+    <link rel="stylesheet" href="../adaptation/Avtarizacia.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../libs/slick/slick.css">
+    <link rel="stylesheet" href="../libs/slick/slick-theme.css">
+    <title>ProfitGeek</title>
+</head>
+<body>
+<!-- start header -->
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <a class="navbar-brand" href="../index.html"><img src="../images/Logo.webp" alt="no photo" id="header_logo"></a>
+        <button class="navbar-toggler" type="button" id="buttonBurger" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-bar-btn"><i class="fas fa-bars" onclick="openNav()"></i></span>
+            <!--            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>-->
+          </button>
+          <div class="collapse old_navbar navbar-collapse justify-content-between align-items-center menu" id="navbarNav" class="sidenav">
+
+
+            <ul class="nav  nav_ul nav-pill justify-content-center align-items-center">
+                <li class="nav-item fs-5"><a href="../html/AboutAs.html" class="menu_a">О нас</a></li>
+                <li class="nav-item fs-5"><a href="../html/services.html" class="menu_a">Услуги</a></li>
+                <li class="nav-item fs-5"><a href="../html/Project_1.html" class="menu_a">Проекты</a></li>
+                <li class="nav-item fs-5"><a href="../html/Communication.html" class="menu_a">Общение</a></li>
+                <li class="nav-item fs-5"><a href="../html/News.html" class="menu_a">Новости</a></li>
+                <li class="nav-item fs-5"><a href="../html/Contacts.html" class="menu_a">Контакты</a></li>
+            </ul>
+            <div class="d-flex justify-content-center align-items-center">
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="fas fa-bell iconca"></i>
+                </a></li>
+
+
+                <li class="header_icon_li header_icon2">
+                    <a class="text_row11_a" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fas fa-user-circle iconca"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="far fa-globe iconca"></i>
+                </a></li>
+            </div>
+        </div>
+
+        <div id="mySidenav" class="sidenav new-slide">
+            <div class="d-flex  new-icon justify-content-between align-items-center">
+                <ul class="d-flex  justify-content-between align-items-center">
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="fas fa-bell iconca"></i>
+                </a></li>
+
+
+                <li class="header_icon_li header_icon2">
+                    <a class="text_row11_a" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fas fa-user-circle iconca"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="far fa-globe iconca"></i>
+                </a></li>
+                </ul>
+
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+
+
+            </div>
+
+            <ul class="nav new-nav nav_ul nav-pill ">
+                <li class="nav-item fs-5"><a href="../html/AboutAs.html" class="menu_a">О нас</a></li>
+                <li class="nav-item fs-5"><a href="../html/services.html" class="menu_a">Услуги</a></li>
+                <li class="nav-item fs-5"><a href="../html/Project_1.html" class="menu_a">Проекты</a></li>
+                <li class="nav-item fs-5"><a href="../html/Communication.html" class="menu_a">Общение</a></li>
+                <li class="nav-item fs-5"><a href="../html/News.html" class="menu_a">Новости</a></li>
+                <li class="nav-item fs-5"><a href="../html/Contacts.html" class="menu_a">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-content2">
+                <div class="button-modal">
+                    <button type="button" class="icon_close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times close_icon1"></i></button>
+                </div>
+                <div class="modal_header">
+                    <div class="modal-title"> <a class="text_row11_a" data-bs-toggle="modal"  ><p>Авторизация</p></a></div>
+                    <div class="modal-title"><a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal2"><p>Регистрация</p></a></div>
+                </div>
+                <form class="form-img" action="#">
+                    <div class="form-input">
+                    <div class="modal-form">
+                        <input type="text" id="fno" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Логин">
+                    </div>
+                    <div class="modal-form">
+                        <input type="text" id="phone_number" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Пароль">
+                    </div>
+                    </div>
+                    <div class="chekbox">
+                    <div class="row_1_checkbox_div">
+                        <input type="checkbox" class="input2" id="condition_new" name="condition_New">
+                        <label class="section8label" for="condition_new"><p>Запомнить</p></label>
+                    </div>
+                    <div class="row_1_checkbox_div">
+                        <input type="checkbox" class="input2" id="condition_neww" name="condition_New">
+                        <label class="section8label" for="condition_neww"><p>Я не робот</p></label>
+                    </div>
+                </div>
+
+                </form>
+
+                <div class="modal-footer">
+                    <a href="Profile.html"> <button class="btn-trans">Войти</button></a>
+                </div>
+                <div class="link_wite"><p>Забыли пароль? <span class="link_orange">Восстановите его !</span></p></div>
+            </div>
+        </div>
+    </div>
+
+<!--    Modal2-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-content2">
+                <div class="button-modal">
+                    <button type="button" class="icon_close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times close_icon1"></i></button>
+                </div>
+                <div class="modal_header">
+                    <div class="modal-title"> <a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal" ><p>Авторизация</p></a></div>
+                    <div class="modal-title"><a class="text_row11_a" data-bs-toggle="modal" ><p>Регистрация</p></a></div>
+                </div>
+                <form action="#">
+
+                    <div class="form-input1">
+                        <div class="form-img1" >
+
+                        <div class="modal-form">
+                            <input type="text" id="fno1" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Логин">
+                        </div>
+                        <div class="modal-form">
+                            <input type="text" id="number2" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="E-mail">
+                        </div>
+                        <div class="modal-form">
+                            <input type="text" id="number3" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Пароль">
+                        </div>
+                        </div>
+                        <div class="modal-form">
+                            <input type="text" id="number4" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Повторите пароль">
+                        </div>
+                        <div class="txt_pinck">Отображаемое имя:</div>
+                        <div class="modal-form">
+
+                            <input type="text" id="number5" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Ник">
+                        </div>
+                    </div>
+
+                    <div class="row_1_checkbox_div1">
+                        <div class="txt-box"><input type="checkbox" class="input2" id="condition_neww1" name="condition_New">
+                        <label class="section8label" for="condition_neww1"><p>Я принимаю условия “Пользовательского соглашения”</p></label></div>
+                    </div>
+
+
+
+                </form>
+
+                <div class="modal-footer">
+                    <a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal"> <button class="btn-trans2">Зарегистироваться</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end header -->
+<main>
+<!--    text area-->
+    <div class="txt1">
+        <span>Международный бизнес является одним из наиболее востребованных</span>
+    </div>
+    <div class="tx">
+       <div>
+           <span>Одним из главных препятствий для построения эффективного сотрудничества с иностранными корпорациями является недостаток знаний о бизнес-законодательстве, рынках и особенностях экономической деятельности в других странах, отсутствие представителя, владеющего языком и необходимыми сведениями.</span>
+       </div>
+        <div class="tx1">
+
+            <span class="tx2"> Наша компания поможет вам справиться с этой проблемой!</span> <span class="tx2_1">Profit Geek Consulting Group</span> — это совершенно новый вид консалтинга, который предоставляет группа опытных специалистов по созданию и продвижению бизнеса в тех странах, которые на сегодня предоставляют наибольший интерес для бизнеса — Россия, Китай, США, Казахстан, Армения и других.
+        </div>
+        <div class="tx3">
+            <span> Суть нашей работы — это предоставление полной, независимой и достоверной информации для создания бизнеса или его улучшения. Profit Geek консалтинг является независимой площадкой, поскольку она несет ответственность только перед своими клиентами и исполнителями, как третья сторона.</span>
+        </div>
+    </div>
+<!--    sxema-->
+<div class = "parrent-container">
+    <div class="container_schema">
+        <button class="box1 btn1">Москва</button>
+        <button class="box2 btn1">Узбекистан</button>
+       <button class=" box3 btn1">Шеньчжэнь</button>
+      <button class="box4 btn1">Грузия</button>
+    <button class="box5 btn1">Гуанджоу</button>
+     <button  class="box6 btn1">Алматы</button>
+    <button  class="box7 btn1">Гонконг</button>
+    <button  class="box8 btn7">Новые города
+        <img class="btnimg" src="../images/icons8-указатели-объектов-96-2.webp" alt="">
+            </button>
+            <div class="btnpinck" ><button class="btnpinck1">www.profit-geek.com</button></div>
+            <div class="roww1">
+                <!-- left -->
+                 <div class="after1"><i class="fas fa-location-arrow"></i></div> <div class="row1"></div><div class="before1"><i class="fas fa-location-arrow"></i></div>
+  
+                 <div class="after2"><i class="fas fa-location-arrow"></i></div><div class="row2"></div> <div class="before2"><i class="fas fa-location-arrow"></i></div> 
+                 <div class="after3"><i class="fas fa-location-arrow"></i></div> <div class="row3"></div> <div class="before3"><i class="fas fa-location-arrow"></i></div> 
+                  <!-- right  -->
+                  <div class="after4"><i class="fas fa-location-arrow"></i></div> <div class="row4"></div> <div class="before4"><i class="fas fa-location-arrow"></i></div>  
+                  <div class="after5"><i class="fas fa-location-arrow"></i></div><div class="row5"></div>  <div class="before5"><i class="fas fa-location-arrow"></i></div>
+                  <div class="after6"><i class="fas fa-location-arrow"></i></div><div class="row6"></div>   <div class="before6"><i class="fas fa-location-arrow"></i></div>
+                  <!-- center -->
+                  <div class="after7"><i class="fas fa-location-arrow"></i></div><div class="row7"></div> <div class="before7"><i class="fas fa-location-arrow"></i></div> 
+                  <div class="after8"><i class="fas fa-location-arrow"></i></div> <div class="row8"></div><div class="before8"><i class="fas fa-location-arrow"></i></div>   
+            </div>
+    </div>
+
+</div>
+
+<!--    text area-->
+    <div class="tx">
+        <div>
+            <span>С помощью единой онлайн-системы и базы данных со всеми необходимыми сведениями они могут в минимальный срок собрать и предоставить клиенту всю необходимую информацию, провести анализ бизнеса и перспектив клиента в его регионе. Это позволяет снизить расходы и количество времени, которое будет затрачено клиентом на получение достоверной и нужной информации.</span>
+        </div>
+        <div class="tx1">
+            Таким образом клиент получает существенную экономию. При этом затраты на услуги нашей консалтинговой площадки составляют от <span class="tx2">3% </span>до <span class="tx2">10%</span> экономии с прибыли. Качество и эффективность наших услуг уже оценили многие из наших клиентов. За два года нашей официальной деятельности около 80% клиентов продолжили сотрудничество с Profit Geek Consulting Group, убедившись в его выгодности для своего бизнеса.
+        </div>
+        <div class="tx3">
+            <span>Постоянный обмен информацией между структурами нашей компании в разных регионах позволяет предоставить максимально профессиональный сервис и содействовать наиболее эффективному продвижению бизнеса наших клиентов на международных рынках.</span>
+        </div>
+    </div>
+<!--    carusel-->
+    <div class="rev_slider_project">
+        <div class="slide">
+            <div class="carousel_card">
+                <div class="carousel_card_img"> <img src="../images/slide%20(1).jpg" alt="no photo"> </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="carousel_card">
+                <div class="carousel_card_img"> <img src="../images/slide.jpg" alt="no photo"> </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="carousel_card">
+                <div class="carousel_card_img"> <img src="../images/slide%20(2).jpg" alt="no photo"> </div>
+            </div>
+        </div>
+
+        <!-- add new card -->
+        <div class="slide">
+            <div class="carousel_card">
+                <div class="carousel_card_img"> <img src="../images/slide.jpg" alt="no photo"> </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+<!--    text area-->
+    <div >
+    <div class="btnbtn"><button class="btn8">Кто мы?</button></div>
+    <div class="tx"><span> Наша компания имеет в каждом регионе группу исполнителей под руководством высококвалифицированного специалиста по бизнесу в данном регионе. Мы стремимся удовлетворить потребности наших клиентов быстро, недорого и качественно.</span></div>
+<!--      icons area-->
+        <div class="area">
+            <div class="icons">
+                <div class="icon">
+                    <img class="iconimg"  src="../images/icon1.webp" alt="">
+                </div>
+                <div class="icon">
+                    <img class="iconimg" src="../images/icon6.webp" alt="">
+                </div>
+                <div class="icon">
+                    <img class="iconimg"  src="../images/icon5.webp" alt="">
+                </div>
+                <div class="icon" >
+                    <img class="iconimg"  src="../images/icon4.webp" alt="">
+                </div>
+                <div class="icon">
+                    <img class="iconimg"  src="../images/icon3.webp" alt="">
+                </div>
+                <div class="icon">
+                    <img class="iconimg"  src="../images/icon2.webp" alt="">
+                </div>
+            </div>
+            <div class="text-area">
+                <div class="area-text"><span>Подрядчики и производители</span></div>
+                <div class="area-text"><span>Поддержка и сопровождение</span></div>
+                <div class="area-text"><span>Продавцы и покупатели</span></div>
+                <div class="area-text"><span>Продвижение бизнеса</span></div>
+                <div class="area-text"><span>Бизнесмен</span></div>
+                <div class="area-text"><span>Обычный человек</span></div>
+            </div>
+        </div>
+<!--        button blue-->
+
+        <div><button class="btn9">Наша миссия</button></div>
+        <div class="text-area0">
+    <div class="text-area1">
+
+            <ul>
+                <li class="text-area-item" >Обеспечивать для клиентов самый лучший сервис, который только возможен;</li>
+                <li class="text-area-item">Предоставить глобальную площадку для услуг, где кто угодно может продать или купить практически что угодно с нашей помощью. </li>
+
+            </ul>
+
+    </div>
+            <div class="text-area2">
+
+                    <ul>
+                        <li class="text-area-item" >Вносить интеллектуальный вклад в развитие бизнеса клиентов;</li>
+                        <li class="text-area-item">Улучшать жизнь людей — наших сотрудников, партнеров по бизнесу, клиентов, учредителей, предоставляя наилучший сервис и обеспечивая удовлетворение потребности партнеров и клиентов в консалтинговых услугах;</li>
+
+                    </ul>
+
+        </div>
+    </div>
+<!--button pinc-->
+
+        <div>
+            <button class="btn10">Наша история</button>
+        </div>
+<!--end text area-->
+        <div class="txtx">
+            <div>
+                <span>  <span class="tx4">  Это не одна из команий, это мечта которая становится явью.</span> Когда-то группа друзей бизнесменов(STT) хотели участвовать в прогрессе и улучшить взаимодействие между бизнесменами и внешним миром, сегодня, мы добились этого.
+<span class="tx2_1">Profit Geek Consulting group</span> —  глобальный проект под руководством опытных бизнесменов.</span>
+            </div>
+            <div class="tx1">
+                <span>Наша команда это ответственные люди с большим багажом опыта в сфере международного бизнеса и с четким пониманием уникальности проекта. Одна из наших основных задач это предоставлять информацию позволяющую вам выполнить ваш бизнес план качественно и в срок.
+</span>
+            </div>
+            <div class="tx1"><span>В марте 2017 года компания <span class="tx2_1">Profit Geek Consulting Group</span> была зарегистрирована в качестве ООО в городе Гонконг. Основана K.A, цель компаний была закрепиться на международном консалтинговом рынке. Компания начала свою деятельность в первую очередь, в создании клиентской базы из китайских партнеров по импорту и экспорту товаров в Россию, СНГ и ряд стран Европы.</span>
+            </div>
+            <div class="tx1"><span>За два года компания стала бизнесом среднего размера в сфере качественных консультативных услуг в городах Пекин Шэньчжэнь и Гуанчжоу. Со временем команда (STT) решили выходить в онлайн благодаря этому проект вышел на новый уровень развития.</span>
+            </div>
+            <div class="tx1">
+               <span>В январе 2019 году компания разработала платформу в виде нового официального веб-сайта <span class="tx2">www.profit-geek.com</span> , для оперативного действия в оказании услуг партнерам и клиентам по всему миру.
+</span>
+            </div>
+            <div class="tx1">
+     <span>Мы также создали бесплатный консультационный пункт для будущих партнеров и клиентов, кому будет интересно стать частью нашей глобальной сети.
+</span>
+            </div>
+            <div class="tx1">
+     <span>Мы находимся на грани разработки различных бизнес-проектов, которые помогут малому и среднему бизнесу закрепиться в эпохе технологий. Мы содействуем вашему росту..</span>
+                </span>
+            </div>
+        </div>
+    </div>
+<span>
+
+
+
+
+
+</span>
+</main>
+
+    <!-- row____15 -->
+    <div class="row">
+        <div class="row_15">
+            <div class="row_15_line1"></div>
+            <div class="row_15_line2"></div>
+            <div class="row_15_line3"></div>
+        </div>
+    </div>
+    <!-- row____16 -->
+    <footer class="footer">
+        <div class="footer_container">
+            <p class="footer_p1">Copyright © 2017 Profitgeek.com™. Все права защищены.</p>
+            <p class="footer_p2">Profit-geek.com это собственность Profit Geek HK Ltd., всемирный онлайн-консалтинг и служба</p>
+        </div>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../libs/slick/slick.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

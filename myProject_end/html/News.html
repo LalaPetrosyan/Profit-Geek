@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/News.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/modal.css">
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/scrol.css">
+	<link rel="stylesheet" href="../adaptation/Avtarizacia.css">
+	<link rel="stylesheet" href="../css/News_checkbox_forms.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../libs/slick/slick.css">
+	<link rel="stylesheet" href="../libs/slick/slick-theme.css">
+	<title>ProfitGeek</title>
+</head>
+<body>
+
+	<!-- row____1 -->
+<div class="container">
+	<nav class="navbar navbar-expand-lg navbar-light">
+
+		<a class="navbar-brand" href="../index.html"><img src="../images/Logo.webp" alt="no photo" id="header_logo"></a>
+        <button class="navbar-toggler" type="button" id="buttonBurger" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-bar-btn"><i class="fas fa-bars" onclick="openNav()"></i></span>
+            <!--            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>-->
+          </button>
+          <div class="collapse old_navbar navbar-collapse justify-content-between align-items-center menu" id="navbarNav" class="sidenav">
+
+
+            <ul class="nav  nav_ul nav-pill justify-content-center align-items-center">
+                <li class="nav-item fs-5"><a href="../html/AboutAs.html" class="menu_a">О нас</a></li>
+                <li class="nav-item fs-5"><a href="../html/services.html" class="menu_a">Услуги</a></li>
+                <li class="nav-item fs-5"><a href="../html/Project_1.html" class="menu_a">Проекты</a></li>
+                <li class="nav-item fs-5"><a href="../html/Communication.html" class="menu_a">Общение</a></li>
+                <li class="nav-item fs-5"><a href="../html/News.html" class="menu_a">Новости</a></li>
+                <li class="nav-item fs-5"><a href="../html/Contacts.html" class="menu_a">Контакты</a></li>
+            </ul>
+            <div class="d-flex justify-content-center align-items-center">
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="fas fa-bell iconca"></i>
+                </a></li>
+
+
+                <li class="header_icon_li header_icon2">
+                    <a class="text_row11_a" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fas fa-user-circle iconca"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="far fa-globe iconca"></i>
+                </a></li>
+            </div>
+        </div>
+
+        <div id="mySidenav" class="sidenav new-slide">
+            <div class="d-flex  new-icon justify-content-between align-items-center">
+                <ul class="d-flex  justify-content-between align-items-center">
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="fas fa-bell iconca"></i>
+                </a></li>
+
+
+                <li class="header_icon_li header_icon2">
+                    <a class="text_row11_a" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fas fa-user-circle iconca"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="far fa-globe iconca"></i>
+                </a></li>
+                </ul>
+
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+
+
+            </div>
+
+            <ul class="nav new-nav nav_ul nav-pill ">
+                <li class="nav-item fs-5"><a href="../html/AboutAs.html" class="menu_a">О нас</a></li>
+                <li class="nav-item fs-5"><a href="../html/services.html" class="menu_a">Услуги</a></li>
+                <li class="nav-item fs-5"><a href="../html/Project_1.html" class="menu_a">Проекты</a></li>
+                <li class="nav-item fs-5"><a href="../html/Communication.html" class="menu_a">Общение</a></li>
+                <li class="nav-item fs-5"><a href="../html/News.html" class="menu_a">Новости</a></li>
+                <li class="nav-item fs-5"><a href="../html/Contacts.html" class="menu_a">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-content2">
+				<div class="button-modal">
+					<button type="button" class="icon_close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+				</div>
+				<div class="modal_header">
+					<div class="modal-title"> <a class="text_row11_a" data-bs-toggle="modal"  ><p>Авторизация</p></a></div>
+					<div class="modal-title"><a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal2"><p>Регистрация</p></a></div>
+				</div>
+				<form class="form-img" action="#">
+					<div class="form-input">
+						<div class="modal-form">
+							<input type="text" id="fno" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Логин">
+						</div>
+						<div class="modal-form">
+							<input type="text" id="phone_number" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Пароль">
+						</div>
+					</div>
+					<div class="chekbox">
+						<div class="row_1_checkbox_div">
+							<input type="checkbox" class="input2" id="condition_new" name="condition_New">
+							<label class="section8label" for="condition_new"><p>Запомнить</p></label>
+						</div>
+						<div class="row_1_checkbox_div">
+							<input type="checkbox" class="input2" id="condition_neww" name="condition_New">
+							<label class="section8label" for="condition_neww"><p>Я не робот</p></label>
+						</div>
+					</div>
+
+				</form>
+
+				<div class="modal-footer">
+					<a href="Profile.html"> <button class="btn-trans">Войти</button></a>
+				</div>
+				<div class="link_wite"><p>Забыли пароль? <span class="link_orange">Восстановите его !</span></p></div>
+			</div>
+		</div>
+	</div>
+
+	<!--    Modal2-->
+	<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-content2">
+				<div class="button-modal">
+					<button type="button" class="icon_close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+				</div>
+				<div class="modal_header">
+					<div class="modal-title"> <a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal" ><p>Авторизация</p></a></div>
+					<div class="modal-title"><a class="text_row11_a" data-bs-toggle="modal" ><p>Регистрация</p></a></div>
+				</div>
+				<form action="#">
+
+					<div class="form-input1">
+						<div class="form-img1" >
+
+							<div class="modal-form">
+								<input type="text" id="fno1" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Логин">
+							</div>
+							<div class="modal-form">
+								<input type="text" id="number2" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="E-mail">
+							</div>
+							<div class="modal-form">
+								<input type="text" id="number3" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Пароль">
+							</div>
+						</div>
+						<div class="modal-form">
+							<input type="text" id="number4" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Повторите пароль">
+						</div>
+						<div class="txt_pinck">Отображаемое имя:</div>
+						<div class="modal-form">
+
+							<input type="text" id="number5" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Ник">
+						</div>
+					</div>
+
+					<div class="row_1_checkbox_div1">
+						<div class="txt-box"><input type="checkbox" class="input2" id="condition_neww1" name="condition_New">
+							<label class="section8label" for="condition_neww1"><p>Я принимаю условия “Пользовательского соглашения”</p></label></div>
+					</div>
+
+
+
+				</form>
+
+				<div class="modal-footer">
+					<a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal"> <button class="btn-trans2">Зарегистироваться</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- row____3 -->
+	<div class="row row_3 justify-content-center align-items-center">
+		<div class="col-2 row_3_div1"><button type="button " class="btn btn-sm btn-primary" id="btn_novosti">Новости</button></div>
+		<div class="col-7 row_3_div2"></div>
+		<div class="col-3 row_3_div3">
+			<div class="search_div">
+				<input type="text" placeholder="Поиск" class="input_search">
+				<div class="position_icon_search"><a href="#"><i class="fas fa-search icon_search"></i></a></div>
+				<div class="line_left1"></div>
+				<div class="line_left2"></div>
+				<div class="line_right1"></div>
+				<div class="line_right2"></div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- row____5 -->
+	<div class="row row_5">
+		<div class="text_row5 col-6 "><p class="text_row5_p">Следите за развитием <a href="#" class="text-decoration-none text_span_row5 ">Profit Geek</a> и другими новостиями.</p> </div>
+		<div class="col-6 row_5_div2"></div>
+	</div>
+	
+	<!-- row____7 -->
+	<div class="rev_slider">
+		<div class="slide">
+			<div class="carousel_card">
+				<div class="carousel_card_header">
+					<div class="carousel_card_img"> <img src="../images/Carousel_img1.png" alt="no photo"> </div>
+					<div class="carousel_card_text"> <a href="#"> Новость 3</a> <p>25.03.2021 14:13:41</p> </div>
+				</div>
+				<div class="carousel_card_body">
+					<p>Отмечается рост продаж предметов роскоши на фоне пандемии.</p>
+					<a href="News_latest.html" class="carousel_card_a3">Подробнее</a>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="carousel_card">
+				<div class="carousel_card_header">
+					<div class="carousel_card_img"> <img src="../images/Carousel_img2.png" alt="no photo"> </div>
+					<div class="carousel_card_text"> <a href="#"> Новость 1</a> <p>25.03.2021 14:13:41</p> </div>
+				</div>
+				<div class="carousel_card_body">
+					<p>В Шанхае открывается первая в Китае испытательная зона для беспилотных автомобилей.</p>
+					<a href="News_latest.html" class="carousel_card_a1">Подробнее</a>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="carousel_card">
+				<div class="carousel_card_header">
+					<div class="carousel_card_img"> <img src="../images/Carousel_img3.png" alt="no photo"> </div>
+					<div class="carousel_card_text"> <a href="#"> Новость 2</a> <p>25.03.2021 14:13:41</p> </div>
+				</div>
+				<div class="carousel_card_body">
+					<p>Стартап New Energy представит первый седан.</p>
+					<a href="News_latest.html" class="carousel_card_a3">Подробнее</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- add new card -->
+		<div class="slide">
+			<div class="carousel_card">
+				<div class="carousel_card_header">
+					<div class="carousel_card_img"> <img src="../images/Carousel_img3.png" alt="no photo"> </div>
+					<div class="carousel_card_text"> <a href="#"> Новость 2</a> <p>25.03.2021 14:13:41</p> </div>
+				</div>
+				<div class="carousel_card_body">
+					<p>Стартап New Energy представит первый седан.</p>
+					<a href="#" class="carousel_card_a3">Подробнее</a>
+				</div> 
+			</div>
+		</div>
+	</div>
+
+	<!-- row____7 -->
+	<div class="row row_7">
+		<div class="col-5 row_7_div1"><button type="button" class="btn" id="btn_row_7">Объявления пользователя</button></div>
+		<div class="col-4 row_7_div2"></div>
+		<div class="col-3 row_7_div3">
+			<div class="search_div">
+				<input type="text" placeholder="Поиск" class="input_search">
+				<div class="position_icon_search"><a href="#"><i class="fas fa-search icon_search"></i></a></div>
+				<div class="line_left1"></div>
+				<div class="line_left2"></div>
+				<div class="line_right1"></div>
+				<div class="line_right2"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- row____11 -->
+	<div class="row row_11">
+		<div class="col-6 row_11_col1">
+			<p class="text_row11_p">Создай свое объявление для продвижения  <!--myModal-->
+				<span><a class="text_row11_a1" data-bs-toggle="modal" data-bs-target="#exampleModal1">в один клик!</a></span>
+			</p>
+		</div>
+		<div class="col-6 row_11_col2">
+			<div class="row_11_icon" data-bs-toggle="modal" data-bs-target="#exampleModal1"><a>i</a></div>
+		</div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content  modal-content1">
+			<form action="action.php" method="GET">
+				<div class="modal_content1">
+					<div class="button-modal1">
+						<button type="button" class="icon_close1" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+					</div>
+					<div class="modal_header2">
+						<h5 class="modal-title2">Создать объявление</h5>
+						<p class="model_header_p1">Стоимость на 720 часа:</p>	
+						<p class="model_header_p2">200 руб.</p>	
+					</div>
+					<div class="modal-body">
+						<form action="#">
+							<div class="modal_row_1">
+								<label for="categor" class="row_1_p">Категория:</label>
+								<input type="text" id="categor" name="Category" class="row_1_input">
+							</div>
+							<div class="modal_row_1">
+								<label for="heading" class="row_1_p">Заголовок:</label>
+								<input type="text" id="heading" name="Heading" class="row_1_input">
+							</div>
+							<div class="modal_row_1">
+								<label for="short_description" class="row_1_p">Краткое описание:</label>
+								<input type="text" id="short_description" name="Short_Description" class="row_1_input">
+							</div>
+							<div class="modal_row_1">
+								<label for="amount" class="row_1_p">Сумма:</label>
+								<input type="text" id="amount" name="Amount" class="row_1_input">
+							</div>
+							<div class="modal_row_1">
+									<label class="row_1_p">Состояние:</label>
+									<div class="row_1_checkbox_div">
+											<input type="checkbox" class="input2" id="condition_new1" name="condition_1">
+											<label class="section8label_condition" for="condition_new1"><p>Новое</p></label>
+											<input type="checkbox" class="input2" id="condition_b/y1" name="condition_1">
+											<label class="section8label_condition" for="condition_b/y1"><p>Б\у</p></label>
+									</div>
+							</div>
+							<div class="modal_row_1">
+								<label for="phone_number1" class="row_1_p">Номер телефона:</label>
+								<input type="text" id="phone_number1" name="Phone_Number1" class="row_1_input" maxlength="15">
+							</div>
+							<div class="modal_row_1">
+								<label for="communication_method" class="row_1_p">Способ связи:</label>
+								<input type="text" id="communication_method" name="Communication_Method" class="row_1_input">
+							</div>
+							<div class="modal_row_1">
+								<label for="general_information" class="row_1_p">Общая информация:</label>
+							<div class="textarea_div">
+								<textarea type="text" id="general_information"rows="5" name="General_Information" class="row_1_input" placeholder="Написать описание..."></textarea>
+							<div class="icons_textarea">	
+									<label for="file_open" class="filee_open">
+									<img src="../images/icon_file.webp" alt="no photo">
+									</label>
+									<input type="file" hidden id="file_open">
+									<label for="file_open" class="filee_smile">
+									<img src="../images/icon_smile.webp" alt="no photo">
+									</label>
+							</div>
+							</div>	
+							</div>
+							<div class="modal_row_1" id="select_region_publications">
+								<label for="select_region_publications" class="row_1_p">Выбрать регион публикации:</label>
+								<div class="flags_news">
+									<div class="flag_rus">
+												<label class="section8flag"><img src="../images/flag_rus.webp" class="flag_img" alt="no photo">  </label>
+												<input type="checkbox" class="input2" id="rus" name="soglasi">
+												<label class="section8label" for="rus"></label>
+										</div>
+										<div class="flag_chin">
+											<label class="section8flag"><img src="../images/flag_china.webp" class="flag_img" alt="no photo">  </label>
+											<input type="checkbox" class="input2" id="chin" name="soglasi">
+											<label class="section8label" for="chin"></label>
+										</div>
+										<div class="flag_usa">
+											<label class="section8flag"><img src="../images/flag_usa.webp"  class="flag_img" alt="no photo">  </label>
+											<input type="checkbox" class="input2" id="usa" name="soglasi">
+											<label class="section8label" for="usa"></label>
+										</div>
+								</div>
+								<div class="add_file">
+									<p class="add_file_p">Прикрепить файл:</p>
+									<div class="add_file_icon">
+										<label for="filetoopen">
+										<img src="../images/add_file.webp" alt="no photo"></label>
+										<input type="file" hidden id="filetoopen">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<div class="button_footer">
+							<button type="submit" name="button" class="btn button_footer_text" >Создать</button>
+						</div>
+					</div>
+				</div>
+			</form>
+			</div>
+		</div>
+		</div>
+
+
+
+	<!-- Model -->
+	<!-- row____12  1-->
+	<div class="row">
+		<div class="row_12">	
+			<div class="col-1 row_12_col_1">
+				<div class="row_12_div1">
+					<img src="../images/row_img1.png" alt="no photo">
+				</div>
+			</div>
+			<div class="col-8 row_12line_div2">
+				<div class="row_12_div2">
+					<div class="row_12_div2_row1">
+						<p class="row_12_div2_row1_p1">Marta Neo</p>
+						<p class="row_12_div2_row1_p2">23.06.21</p>
+						<p class="row_12_div2_row1_p3">18:09:34</p>
+					</div>
+					<a href="#">Стартап New Energy представит первый седан</a>
+					<p>Конкуренция на рынке электромобилей растет.</p>
+				</div>
+			</div>
+			<div class="col-3 row_12line_div3">
+					<div class="row_12_div3_numbr">
+						<div class="round_numbers"><p>169</p></div>
+						<div class="round_numbers"><p>45</p></div>
+						<div class="round_numbers"><p>13<p></div>
+					</div>
+					<div class="row_12_div3_conaine_a">
+						<a href="News_user_ads.html" class="row_12_div3_a">Подробнее</a>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- row____12  2-->
+	<div class="row">
+		<div class="row_12">	
+			<div class="col-1 row_12_col_1">
+				<div class="row_12_div1">
+					<img src="../images/row_img2.png" alt="no photo">
+				</div>
+			</div>
+			<div class="col-8 row_12line_div2">
+				<div class="row_12_div2">
+					<div class="row_12_div2_row1">
+						<p class="row_12_div2_row1_p1">Marta Neo</p>
+						<p class="row_12_div2_row1_p2">23.06.21</p>
+						<p class="row_12_div2_row1_p3">18:09:34</p>
+					</div>
+					<a href="#">IQiyi VR Arm собирает деньги на оборудование и контент в последнем раунде финансирования</a>
+					<p>Инвестиции в виртуальную реальность.</p>
+				</div>
+			</div>
+			<div class="col-3 row_12line_div3">
+					<div class="row_12_div3_numbr">
+						<div class="round_numbers"><p>169</p></div>
+						<div class="round_numbers"><p>45</p></div>
+						<div class="round_numbers"><p>13<p></div>
+					</div>
+					<div class="row_12_div3_conaine_a">
+						<a href="News_user_ads.html" class="row_12_div3_a">Подробнее</a>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- row____12  3-->
+	<div class="row">
+		<div class="row_12">	
+			<div class="col-1 row_12_col_1">
+				<div class="row_12_div1">
+					<img src="../images/row_img3.png" alt="no photo">
+				</div>
+			</div>
+			<div class="col-8 row_12line_div2">
+				<div class="row_12_div2">
+					<div class="row_12_div2_row1">
+						<p class="row_12_div2_row1_p1">Marta Neo</p>
+						<p class="row_12_div2_row1_p2">23.06.21</p>
+						<p class="row_12_div2_row1_p3">18:09:34</p>
+					</div>
+					<a href="#">Бум технического обслуживания судов в Китае на фоне роста торговли</a>
+					<p>Трансграничная электронная торговля создаёт пространство для роста экспорта.</p>
+				</div>
+			</div>
+			<div class="col-3 row_12line_div3">
+					<div class="row_12_div3_numbr">
+						<div class="round_numbers"><p>169</p></div>
+						<div class="round_numbers"><p>45</p></div>
+						<div class="round_numbers"><p>13<p></div>
+					</div>
+					<div class="row_12_div3_conaine_a">  
+						<a href="News_user_ads.html" class="row_12_div3_a">Подробнее</a>
+					</div>
+			</div>  
+		</div>	
+	</div>
+
+	<!-- row____12  4-->
+	<div class="row">
+		<div class="row_12">	
+			<div class="col-1 row_12_col_1">
+				<div class="row_12_div1">
+					<img src="../images/row_img4.png" alt="no photo">
+				</div>
+			</div>
+			<div class="col-8 row_12line_div2">
+				<div class="row_12_div2">
+					<div class="row_12_div2_row1">
+						<p class="row_12_div2_row1_p1">Marta Neo</p>
+						<p class="row_12_div2_row1_p2">23.06.21</p>
+						<p class="row_12_div2_row1_p3">18:09:34</p>
+					</div>
+					<a href="#">Ericsson угрожает покинуть Швецию, не желая терять китайский рынок из-за запрета Huawei</a>
+					<p>Трансграничная электронная торговля создаёт пространство для роста экспорта.</p>
+				</div>
+			</div>
+			<div class="col-3 row_12line_div3">
+					<div class="row_12_div3_numbr">
+						<div class="round_numbers"><p>169</p></div>
+						<div class="round_numbers"><p>45</p></div>
+						<div class="round_numbers"><p>13<p></div>
+					</div>
+					<div class="row_12_div3_conaine_a">
+						<a href="News_user_ads.html" class="row_12_div3_a">Подробнее</a>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- row____12  5-->
+	<div class="row">
+		<div class="row_12">	
+			<div class="col-1 row_12_col_1">
+				<div class="row_12_div1">
+					<img src="../images/row_img5.png" alt="no photo">
+				</div>
+			</div>
+			<div class="col-8 row_12line_div2">
+				<div class="row_12_div2">
+					<div class="row_12_div2_row1">
+						<p class="row_12_div2_row1_p1">Marta Neo</p>
+						<p class="row_12_div2_row1_p2">23.06.21</p>
+						<p class="row_12_div2_row1_p3">18:09:34</p>
+					</div>
+					<a href="#">Ericsson угрожает покинуть Швецию, не желая терять китайский рынок из-за запрета Huawei</a>
+					<p>Трансграничная электронная торговля создаёт пространство для роста экспорта.</p>
+				</div>
+			</div>
+			<div class="col-3 row_12line_div3">
+					<div class="row_12_div3_numbr">
+						<div class="round_numbers"><p>169</p></div>
+						<div class="round_numbers"><p>45</p></div>
+						<div class="round_numbers"><p>13<p></div>
+					</div>
+					<div class="row_12_div3_conaine_a">
+						<a href="News_user_ads.html" class="row_12_div3_a">Подробнее</a>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- row____12  6-->
+	<div class="row">
+		<div class="row_12">	
+			<div class="col-1 row_12_col_1">
+				<div class="row_12_div1">
+					<img src="../images/row_img1.png" alt="no photo">
+				</div>
+			</div>
+			<div class="col-8 row_12line_div2">
+				<div class="row_12_div2">
+					<div class="row_12_div2_row1">
+						<p class="row_12_div2_row1_p1">Marta Neo</p>
+						<p class="row_12_div2_row1_p2">23.06.21</p>
+						<p class="row_12_div2_row1_p3">18:09:34</p>
+					</div>
+					<a href="#">Ericsson угрожает покинуть Швецию, не желая терять китайский рынок из-за запрета Huawei</a>
+					<p>Трансграничная электронная торговля создаёт пространство для роста экспорта.</p>
+				</div>
+			</div>
+			<div class="col-3 row_12line_div3">
+					<div class="row_12_div3_numbr">
+						<div class="round_numbers"><p>169</p></div>
+						<div class="round_numbers"><p>45</p></div>
+						<div class="round_numbers"><p>13<p></div>
+					</div>
+					<div class="row_12_div3_conaine_a">
+						<a href="News_user_ads.html" class="row_12_div3_a">Подробнее</a>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- row____12  7-->
+	<div class="row">
+		<div class="row_12">	
+			<div class="col-1 row_12_col_1">
+				<div class="row_12_div1">
+					<img src="../images/row_img2.png" alt="no photo">
+				</div>
+			</div>
+			<div class="col-8 row_12line_div2">
+				<div class="row_12_div2">
+					<div class="row_12_div2_row1">
+						<p class="row_12_div2_row1_p1">Marta Neo</p>
+						<p class="row_12_div2_row1_p2">23.06.21</p>
+						<p class="row_12_div2_row1_p3">18:09:34</p>
+					</div>
+					<a href="#">Ericsson угрожает покинуть Швецию, не желая терять китайский рынок из-за запрета Huawei</a>
+					<p>Трансграничная электронная торговля создаёт пространство для роста экспорта.</p>
+				</div>
+			</div>
+			<div class="col-3 row_12line_div3">
+					<div class="row_12_div3_numbr">
+						<div class="round_numbers"><p>169</p></div>
+						<div class="round_numbers"><p>45</p></div>
+						<div class="round_numbers"><p>13<p></div>
+					</div>
+					<div class="row_12_div3_conaine_a">
+						<a href="News_user_ads.html" class="row_12_div3_a">Подробнее</a>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- row____12  8-->
+	<div class="row">
+		<div class="row_12">	
+			<div class="col-1 row_12_col_1">
+				<div class="row_12_div1">
+					<img src="../images/row_img4.png" alt="no photo">
+				</div>
+			</div>
+			<div class="col-8 row_12line_div2">
+				<div class="row_12_div2">
+					<div class="row_12_div2_row1">
+						<p class="row_12_div2_row1_p1">Marta Neo</p>
+						<p class="row_12_div2_row1_p2">23.06.21</p>
+						<p class="row_12_div2_row1_p3">18:09:34</p>
+					</div>
+					<a href="#">Ericsson угрожает покинуть Швецию, не желая терять китайский рынок из-за запрета Huawei</a>
+					<p>Трансграничная электронная торговля создаёт пространство для роста экспорта.</p>
+				</div>
+			</div>
+			<div class="col-3 row_12line_div3">
+					<div class="row_12_div3_numbr">
+						<div class="round_numbers"><p>169</p></div>
+						<div class="round_numbers"><p>45</p></div>
+						<div class="round_numbers"><p>13<p></div>
+					</div>
+					<div class="row_12_div3_conaine_a">
+						<a href="News_user_ads.html" class="row_12_div3_a">Подробнее</a>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- row____13 -->
+	<div class="row row_13">
+		<p>Работаем <a href="#" class="row_13_a1">24/7</a> для выпуска горячих новостей подборка от <a href="#" class="row_13_a2">Profit Geek HK Ltd.</a></p>
+	</div>
+
+	<!-- row____14 -->
+		<div class="row row_14">
+			<div class="row_14_container">
+				<div class="slack_prev"></div>
+				<div class="row_14_numbers"><p>1</p></div>
+				<div class="row_14_numbers"><p>2</p></div>
+				<div class="row_14_numbers"><p>3</p></div>
+				<div class="slack_next"></div>
+			</div>
+		</div>
+
+	<!-- row____15 -->
+	<div class="row">
+		<div class="row_15">
+			<div class="row_15_line1"></div>
+			<div class="row_15_line2"></div>
+			<div class="row_15_line3"></div>
+		</div>
+	</div>
+	<!-- row____16 -->
+	<footer class="footer">	
+		<div class="footer_container">
+			<p class="footer_p1">Copyright © 2017 Profitgeek.com™. Все права защищены.</p>
+			<p class="footer_p2">Profit-geek.com это собственность Profit Geek HK Ltd., всемирный онлайн-консалтинг и служба</p>
+		</div>
+	</footer>
+</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="../js/jquery-3.6.0.min.js"></script>
+	<script src="../libs/slick/slick.min.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+</html>

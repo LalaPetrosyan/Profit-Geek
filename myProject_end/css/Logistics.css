@@ -1,0 +1,219 @@
+body{
+    background-color: #000000 !important;
+}
+.btn_logist{
+    width: 370px;
+    height: 73px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    color: #FA0E8F;
+    text-shadow: 0px 0px 30px #FA0E8F;
+    background: #000000;
+    border: 5px solid #FA0E8F;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(250, 14, 143, 0.7);
+    border-radius: 20px;
+    margin-top:50px;
+}
+.textare-trans{
+    margin-top: 85px;
+    background: #000000;
+    color: white;
+    border: 5px solid #11C5FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(17, 197, 255, 0.7);
+    border-radius: 20px;
+    font-family: Comfortaa;
+    font-size: 15px;
+    padding: 25px;
+
+}
+.text-pinck{
+    margin-top: 50px;
+    text-align: center;
+    color: #FA0E8F;
+    font-family: Comfortaa;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    text-shadow: 0px 0px 30px #FA0E8F;
+
+}
+
+.text-orang{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFBC11;
+
+}
+.span_orange{
+    width: 100px;
+}
+.img-orange{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-org{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98px;
+    height: 98px;
+    background: #000000;
+    border: 5px solid #FFBC11;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(255, 188, 17, 0.7);
+    border-radius: 50%;
+
+}
+.area{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.texter{
+    width: 1070px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.tx_blue{
+    color: #11C5FF;
+}
+.area2{
+    margin-top: 40px;
+    text-align: center;
+}
+.texter1{
+    width: 600px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+
+}
+
+.row_7_div1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #11C5FF;
+    box-shadow: 0px 0px 29.2988px rgba(17, 197, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row_7_div1 p{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 148%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.row_7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.row_7-col {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+.row_7::after {
+    content: "";
+    margin-left: 90px;
+    position: absolute;
+    border: 1px solid #11C5FF;
+    max-width: 1090px;
+    width: 100%;
+    z-index: -1;
+}
+.row_7_green{
+    background-color: #000000;
+}
+
+.chek_pink i{
+    font-size: 25px;
+
+}
+.chek_pink{
+    text-align: center;
+}
+
+
+.row_txt_div{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 148%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.row_txt{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+
+.row_txt_div5{
+    width: 145px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.row_txt_div4{
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 148%;
+    text-align: center;
+    color: #65C941;
+    text-shadow: 0px 0px 30px #65C941;
+}
+.row_txt_div2{
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 148%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.row_txt7{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.map-area{
+    margin-bottom: 30px;
+}

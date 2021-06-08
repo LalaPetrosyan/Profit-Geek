@@ -1,0 +1,316 @@
+body{
+    background-color: #000000 !important;
+}
+.btn_control{
+    width: 470px;
+    height: 73px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    color: #FA0E8F;
+    text-shadow: 0px 0px 30px #FA0E8F;
+    background: #000000;
+    border: 5px solid #FA0E8F;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(250, 14, 143, 0.7);
+    border-radius: 20px;
+    margin-top:50px;
+}
+.img_control{
+    margin-left: 10px;
+
+}
+.container_orange{
+    margin-top: 50px;
+}
+.textarea{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.txt-white{
+    width: 1070px;
+    color: white;
+}
+.txt-orange{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFBC11;
+    text-shadow: 0px 0px 30px #FFBC11;
+    width: 150px;
+}
+
+.textarea-control{
+    margin-top: 85px;
+    background: #000000;
+    color: white;
+    border: 5px solid #11C5FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(17, 197, 255, 0.7);
+    border-radius: 20px;
+    font-family: Comfortaa;
+    font-size: 15px;
+    padding: 25px;
+
+}
+.txt_pinck{
+    margin-top: 20px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #FA0E8F;
+    text-shadow: 0px 0px 30px #FA0E8F;
+}
+/*button area*/
+.btn_trans{
+    width: 370px;
+    height: 73px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    color: #FA0E8F;
+    text-shadow: 0px 0px 30px #FA0E8F;
+    background: #000000;
+    border: 5px solid #FA0E8F;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(250, 14, 143, 0.7);
+    border-radius: 20px;
+    margin-top:50px;
+}
+.textare-trans{
+    margin-top: 85px;
+    background: #000000;
+    color: white;
+    border: 5px solid #11C5FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(17, 197, 255, 0.7);
+    border-radius: 20px;
+    font-family: Comfortaa;
+    font-size: 15px;
+    padding: 25px;
+
+}
+.text-tr{
+    margin-top: 40px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #FFBC11;
+    text-shadow: 0px 0px 30px rgba(255, 188, 17, 0.7);
+}
+.text-tx{
+    font-family: Comfortaa;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.roww1{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.row1{
+    width: 200px;
+    border: 2px solid #FFBC11;
+    box-shadow: 0px 0px 30px rgba(255, 188, 17, 0.7);
+    transform: rotate(156.33deg);
+}
+.row2{
+    width:200px;
+    border: 2px solid #FFBC11;
+    box-shadow: 0px 0px 30px rgba(255, 188, 17, 0.7);
+    transform: matrix(0.92, 0.4, 0.4, -0.92, 0, 0);
+}
+.roww2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.row3{
+    margin-top: 10px;
+    width: 408px;
+    height: 84px;
+    text-align: center;
+    font-size: 15px;
+
+
+}
+.row4{
+    margin-top: 10px;
+    text-align: center;
+    width: 408px;
+    height: 84px;
+    text-align: center;
+    font-size: 15px;
+
+}
+.row_txt{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.row-txt{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.row-txt1{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 148%;
+    text-align: center;
+    color: #FA0E8F;
+    text-shadow: 0px 0px 30px #FA0E8F;
+}
+.row-txt2{
+    margin-top: 10px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 148%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.row_7_div1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #11C5FF;
+    box-shadow: 0px 0px 29.2988px rgba(17, 197, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row_7_div1 p{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 148%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.row_7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.row_7-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+.row_7::after {
+    content: "";
+    margin-left: 90px;
+    position: absolute;
+    border: 1px solid #11C5FF;
+    max-width: 1090px;
+    width: 100%;
+    z-index: -1;
+}
+.row_7_green{
+    background-color: #000000;
+}
+.row_7_pinck{
+    color: #FA0E8F ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 29.2988px rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chek_pink i{
+    font-size: 25px;
+
+}
+.chek_pink{
+    text-align: center;
+}
+
+
+.row_txt_div{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 148%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.row_txt{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+.row_txt_div6{
+    width: 145px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #FA0E8F;
+    text-shadow: 0px 0px 30px #FA0E8F;
+
+}
+.row_txt_div5{
+    width: 250px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.row_txt_div4{
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 148%;
+    text-align: center;
+    color: #65C941;
+    text-shadow: 0px 0px 30px #65C941;
+}
+.row_txt_div2{
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 148%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 150px;
+}
+.row_txt7{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

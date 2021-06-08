@@ -1,0 +1,87 @@
+body{
+    background-color: #000000 !important;
+}
+.btn1{
+    width: 346px;
+    height: 73px;
+    color:#FFBC11 ;
+    font-size: 30px;
+    background: #000000;
+    border: 5px dashed #FFBC11;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(255, 188, 17, 0.7);
+    border-radius: 20px;
+}
+.card-body{
+    width: 530px;
+    height: 251px;
+    background: #000000;
+    border: 5px solid #11C5FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(17, 197, 255, 0.7);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.card-title{
+    font-family: Comfortaa;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FA0E8F;
+    text-shadow: 0px 0px 30px #FA0E8F;
+    margin-left: 150px;
+}
+.but{
+    width: 250px;
+    height: 50px;
+    color:#FA0E8F ;
+    font-size: 20px;
+    background: #000000;
+    border: 1px solid #FA0E8F;
+    box-sizing: border-box;
+    text-shadow: 0px 0px 30px #FA0E8F;
+    border-radius:40px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+.cardimg{
+    display: flex;
+    justify-content: space-between;
+}
+.imgg{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: #000000;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(17, 197, 255, 0.7);
+}
+.card-text{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.cardarea{
+    margin-bottom: 200px;
+
+}
+.row_11_icon {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #11C5FF;
+    box-shadow: 0px 0px 30px rgba(17, 197, 255, 0.7);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.row_11_icon a {
+    color: #11C5FF;
+    font-size: 20px;
+    text-decoration: none;
+}
+.server{
+    display: flex;
+
+
+}

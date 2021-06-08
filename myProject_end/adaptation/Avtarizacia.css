@@ -1,0 +1,153 @@
+@media only screen and (max-width: 767px){
+    .modal-title{
+        font-size: 20px;
+    }
+    .modal-content2 {
+        width: 500px!important;
+    }
+
+    }
+
+@media only screen and (max-width: 550px){
+    .modal-title{
+        font-size: 15px;
+    }
+    .modal-content2 {
+        width: 450px!important;
+        margin-left: 30px;
+    }
+    .btn-trans {
+        height: 35px;
+        width: 170px;
+        font-size: 15px;
+    }
+    .link_wite {
+        font-size: 15px;
+    }
+    .btn-trans2 {
+        height: 35px;
+        width: 170px;
+        font-size: 15px;
+    }
+    .section8label::before {
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    }
+@media only screen and (max-width: 500px){
+    .modal-title{
+        font-size: 15px;
+    }
+    .modal-content2 {
+        width: 410px!important;
+        margin-left: 30px;
+    }
+    .modal-form {
+        padding: 5px;
+    }
+    .chekbox {
+        margin-top: 28px;
+    }
+    .txt_pinck {
+        font-size: 12px;
+        margin-left: 83px;
+
+    }
+    .txt-box p {
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .section8label::before {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .btn-trans2 {
+        height: 33px;
+        width: 191px;
+        font-size: 15px;
+    }
+    .icon_close {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .modal-title{
+        font-size: 15px;
+    }
+    .modal-content2 {
+        width: 370px!important;
+        margin-left: 30px;
+    }
+    .modal-form {
+        padding: 3px;
+    }
+    .chekbox {
+        margin-top: 32px;
+    }
+    .txt_pinck {
+        font-size: 12px;
+        margin-left: 83px;
+
+    }
+}
+    @media only screen and (max-width: 320px){
+        .modal-title{
+            font-size: 11px !important;
+        }
+        .modal-content2 {
+            width: 260px !important;
+            margin-left: 20px;
+        }
+        .text_row11_a p {
+            margin: -7px !important;
+        }
+        .modal-form input{
+            padding: 6px;
+            width: 80%;
+            font-size: 10px;
+        }
+
+        .txt_pinck {
+            font-size: 12px;
+            margin-left: 83px;
+
+        }
+        .txt-box p {
+            font-size: 12px;
+            margin-left: 0px;
+        }
+        .section8label::before {
+            width: 20px !important;
+            height: 20px !important;
+        }
+        .btn-trans2 {
+            height: 25px !important;
+            width: 138px !important;
+            font-size: 10px !important;
+        }
+        .section8label p {
+            margin-left: 5px !important;
+            font-size: 10px !important;
+        }
+        .link_wite {
+            font-size: 10px;
+        }
+        .form-img {
+            height: 209px !important;
+        }
+        .btn-trans {
+            height: 25px;
+            width: 100px;
+            font-size: 10px;
+        }
+        .icon_close {
+            font-size: 15px;
+            margin-left: 180px;
+        }
+
+    }

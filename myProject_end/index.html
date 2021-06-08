@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="adaptation/Avtarizacia.css">
+    <link rel="stylesheet" href="adaptation/index.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/checkbox_forms.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick/slick-theme.css">
+    <title>ProfitGeek</title>
+</head>
+<body onload="myFunction()" style="margin:0;" >
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+
+
+<!-- start header -->
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <a class="navbar-brand" href="index.html"><img src="images/Logo.webp" alt="no photo" id="header_logo"></a>
+        <button class="navbar-toggler" type="button" id="buttonBurger" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-bar-btn"><i class="fas fa-bars" onclick="openNav()"></i></span>
+<!--            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>-->
+        </button>
+        <div class="collapse old_navbar navbar-collapse justify-content-between align-items-center menu" id="navbarNav" class="sidenav">
+
+
+            <ul class="nav  nav_ul nav-pill justify-content-center align-items-center">
+                <li class="nav-item fs-5"><a href="html/AboutAs.html" class="menu_a">О нас</a></li>
+                <li class="nav-item fs-5"><a href="html/services.html" class="menu_a">Услуги</a></li>
+                <li class="nav-item fs-5"><a href="html/Project_1.html" class="menu_a">Проекты</a></li>
+                <li class="nav-item fs-5"><a href="html/Communication.html" class="menu_a">Общение</a></li>
+                <li class="nav-item fs-5"><a href="html/News.html" class="menu_a">Новости</a></li>
+                <li class="nav-item fs-5"><a href="html/Contacts.html" class="menu_a">Контакты</a></li>
+            </ul>
+            <div class="d-flex justify-content-center align-items-center">
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="fas fa-bell iconca"></i>
+                </a></li>
+
+
+                <li class="header_icon_li header_icon2">
+                    <a class="text_row11_a" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fas fa-user-circle iconca"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="far fa-globe iconca"></i>
+                </a></li>
+            </div>
+        </div>
+
+        <div id="mySidenav" class="sidenav new-slide">
+            <div class="d-flex  new-icon justify-content-between align-items-center">
+                <ul class="d-flex  justify-content-between align-items-center">
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="fas fa-bell iconca"></i>
+                </a></li>
+
+
+                <li class="header_icon_li header_icon2">
+                    <a class="text_row11_a" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fas fa-user-circle iconca"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="far fa-globe iconca"></i>
+                </a></li>
+                </ul>
+
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+
+
+            </div>
+
+            <ul class="nav new-nav nav_ul nav-pill ">
+                <li class="nav-item fs-5"><a href="html/AboutAs.html" class="menu_a">О нас</a></li>
+                <li class="nav-item fs-5"><a href="html/services.html" class="menu_a">Услуги</a></li>
+                <li class="nav-item fs-5"><a href="html/Project_1.html" class="menu_a">Проекты</a></li>
+                <li class="nav-item fs-5"><a href="html/Communication.html" class="menu_a">Общение</a></li>
+                <li class="nav-item fs-5"><a href="html/News.html" class="menu_a">Новости</a></li>
+                <li class="nav-item fs-5"><a href="html/Contacts.html" class="menu_a">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-content2">
+                <div class="button-modal">
+                    <button type="button" class="icon_close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal_header">
+                    <div class="modal-title"> <a class="text_row11_a" data-bs-toggle="modal"  ><p>Авторизация</p></a></div>
+                    <div class="modal-title"><a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal2"><p>Регистрация</p></a></div>
+                </div>
+                <form class="form-img" action="#">
+                    <div class="form-input">
+                        <div class="modal-form">
+                            <input type="text" id="fno" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Логин">
+                        </div>
+                        <div class="modal-form">
+                            <input type="text" id="phone_number" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Пароль">
+                        </div>
+                    </div>
+                    <div class="chekbox">
+                        <div class="row_1_checkbox_div">
+                            <input type="checkbox" class="input2" id="condition_new" name="condition_New">
+                            <label class="section8label" for="condition_new"><p>Запомнить</p></label>
+                        </div>
+                        <div class="row_1_checkbox_div">
+                            <input type="checkbox" class="input2" id="condition_neww" name="condition_New">
+                            <label class="section8label" for="condition_neww"><p>Я не робот</p></label>
+                        </div>
+                    </div>
+
+                </form>
+
+                <div class="modal-footer">
+                    <a href="html/Profile.html"> <button class="btn-trans">Войти</button></a>
+                </div>
+                <div class="link_wite"><p>Забыли пароль? <span class="link_orange">Восстановите его !</span></p></div>
+            </div>
+        </div>
+    </div>
+
+    <!--    Modal2-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-content2">
+                <div class="button-modal">
+                    <button type="button" class="icon_close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal_header">
+                    <div class="modal-title"> <a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal" ><p>Авторизация</p></a></div>
+                    <div class="modal-title"><a class="text_row11_a" data-bs-toggle="modal" ><p>Регистрация</p></a></div>
+                </div>
+                <form action="#">
+
+                    <div class="form-input1">
+                        <div class="form-img1" >
+
+                            <div class="modal-form">
+                                <input type="text" id="fno1" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Логин">
+                            </div>
+                            <div class="modal-form">
+                                <input type="text" id="number2" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="E-mail">
+                            </div>
+                            <div class="modal-form">
+                                <input type="text" id="number3" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Пароль">
+                            </div>
+                        </div>
+                        <div class="modal-form">
+                            <input type="text" id="number4" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Повторите пароль">
+                        </div>
+                        <div class="txt_pinck">Отображаемое имя:</div>
+                        <div class="modal-form">
+
+                            <input type="text" id="number5" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Ник">
+                        </div>
+                    </div>
+
+                    <div class="row_1_checkbox_div1">
+                        <div class="txt-box"><input type="checkbox" class="input2" id="condition_neww1" name="condition_New">
+                            <label class="section8label" for="condition_neww1"><p>Я принимаю условия “Пользовательского соглашения”</p></label></div>
+                    </div>
+
+
+
+                </form>
+
+                <div class="modal-footer">
+                    <a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal"> <button class="btn-trans2">Зарегистироваться</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    start page-->
+
+<main>
+    <div >
+        <div class="autoplay">
+            <div>
+                <div class="name">
+                    <span>Добро пожаловать на новый сайт Pprofit-geek.com</span>
+                </div>
+                <div class="txt">
+                    <span>Самые свежие новости в ProfitGeek, а также быстрая консультация в наших чатах.</span>
+                </div>
+                <div>
+                    <button class="btn-chat">
+                        Начать чат с оператором
+                    </button>
+                </div>
+            </div>
+            <div>
+                <div class="name">
+                    <span>Добро пожаловать на новый сайт Pprofit-geek.com</span>
+                </div>
+                <div class="txt">
+                    <span>Самые свежие новости в ProfitGeek, а также быстрая консультация в наших чатах.</span>
+                </div>
+                <div >
+                    <button class="btn-chat">
+                        Начать чат с оператором
+                    </button>
+                </div>
+            </div>
+            <div>
+                <div class="name">
+                    <span>Добро пожаловать на новый сайт Pprofit-geek.com</span>
+                </div>
+                <div class="txt">
+                    <span>Самые свежие новости в ProfitGeek, а также быстрая консультация в наших чатах.</span>
+                </div>
+                <div >
+                    <button class="btn-chat">
+                        Начать чат с оператором
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!--            <div id="img1">-->
+<!--            </div>-->
+<!--            <div id="img2">-->
+<!--            </div>-->
+    </div>
+<!--services-->
+<div class="container-box2">
+    <div class="pink-area">
+        <div class="btn2"><button class="btn2-button">Наши услуги</button></div>
+        <div class="services">
+            <ul>
+                <li class="services-item active" >Логистика</li>
+                <li class="services-item">Buyer service</li>
+                <li class="services-item">Контроль качества</li>
+                <li class="services-item">Переводчик</li>
+                <li class="services-item">Краудфандинг</li>
+                <li class="services-item">Юридические услуги</li>
+            </ul>
+        </div>
+    </div>
+    <div class="services2">
+        <div class="txt2"><span>Логистика</span></div>
+        <div class="txt3"><p>Профессиональная консультация по логистике от ProfitGeek!</p></div>
+        <div class="services3">
+            <div >
+                <ul>
+                    <li class="services3-item"><span class="services3-line"></span> Профессиональная консультация</li>
+                    <li class="services3-item"><span class="services3-line"></span> Профессиональная консультация</li>
+                    <li class="services3-item"><span class="services3-line"></span> Профессиональная консультация</li>
+                </ul>
+            </div>
+          <div class="scales"><img src="images/icons8-весы-96-1.webp" alt="" class="scales">
+          </div>
+        </div>
+        <div class="btn3">
+            <button >Подробнее</button>
+        </div>
+    </div>
+</div>
+
+</main>
+    <!--    end page-->
+</div>
+
+
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="libs/slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    var myVar;
+
+    function myFunction() {
+        myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,291 @@
+@media only screen and (max-width: 1199px){
+    .caht_admin {
+        width: 60%;
+    }
+    .row2 {
+        margin-right: 200px;
+    }
+    .blue-admin {
+        margin-right: 150px;
+    }
+    .back {
+        margin-left: 320px;
+    }
+    }
+@media only screen and (max-width: 992px){
+    .col-md-8 {
+        flex: 0 0 auto;
+        width: 60% !important;
+    }
+    .caht_admin {
+        width: 35%;
+        font-size: 12px;
+    }
+    .back {
+        margin-left: 140px;
+    }
+    .row2 {
+        margin-right: 408px;
+    }
+    .blue-admin {
+        margin-right: 430px;
+    }
+    .blue-admin {
+        font-size: 17px;
+    }
+    .btn-modal_textarea{
+        width: 150px !important;
+        font-size: 15px;
+    }
+    .filee_open {
+        right: 200px !important;
+    }
+    .div1 {
+        height: 300px;
+        padding: 20px
+    }
+    .col-md-8 {
+        flex: 0 0 auto;
+        width: 100% !important;
+        margin-left: 10px;
+        margin-top: 30px !important;
+    }
+    .back {
+        margin-left: 240px;
+    }
+    .caht_admin {
+        width: 45%;
+        font-size: 13px;
+    }
+    .row2 {
+        margin-right: 315px;
+    }
+    }
+@media only screen and (max-width: 767px){
+    .icon_item{
+        display: flex;
+    }
+    .div1 {
+        height: 70px;
+        font-size: 12px;
+        padding: 0.0px;
+    }
+    .container_chat{
+        margin-top: 20px !important;
+    }
+    .icon-item {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media only screen and (max-width: 470px){
+    .icon-item {
+        padding: 7px;
+    }
+
+}
+@media only screen and (max-width: 425px){
+
+    .chat-button {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .chat-title{
+        font-size:15px;
+    }
+    .admin_cont {
+        width: 300px;
+
+    }
+
+}
+@media only screen and (max-width: 400px){
+    .div1{
+        height: 60px;
+        font-size: 8px;
+    }
+    .container-admin {
+        padding: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 385px){
+    .admin_cont {
+        width: 280px;
+
+    }
+}
+@media only screen and (max-width: 350px){
+    .container_chat {
+        height: 575px;
+        border: 2px solid #FA0E8F;
+    }
+    .chat-button {
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+    }
+    .img_chat {
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .admin_cont {
+        width: 240px;
+    }
+    .chat-pink {
+        font-size: 13px;
+    }
+    .area_txt {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .icon-item {
+        padding: 3px;
+    }
+
+    .chat-button {
+        width: 100px;
+        height: 26px;
+        font-size: 8px;
+    }
+
+    .admin_cont {
+        width: 210px;
+
+    }
+
+    .img_chat {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .txt-area {
+        margin-left: 10px;
+    }
+
+    .img_chat {
+        height: 40px;
+        width: 40px;
+    }
+
+    .div1 {
+        height: 45px;
+        width: 300px;
+        font-size: 9px;
+        border: 2px solid #11C5FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-item i {
+        font-size: 17px;
+    }
+
+    .back {
+        margin-left: 60px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .chat-wite {
+        font-size: 12px;
+    }
+
+    .admin-img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .admin-chat {
+        padding: 0px
+    }
+
+    .caht_admin {
+        width: 26%;
+        font-size: 10px;
+    }
+
+    .pink-admin {
+        font-size: 11px;
+    }
+
+    .wite-admin {
+        font-size: 6px;
+    }
+
+    .admin-time {
+        font-size: 6px;
+    }
+
+    .blue-admin {
+        font-size: 13px;
+        margin-right: 500px;
+    }
+
+    .row2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 440px;
+
+    }
+
+    .marta-txt {
+        font-size: 10px;
+    }
+
+    .textarea_newws_latter {
+        font-size: 10px;
+        transform: translateX(19px);
+        width: 90%;
+        height: 90%;
+        padding: 0px;
+        margin-top: 21px;
+    }
+
+    .btn-modal_textarea {
+        height: 30px;
+        width: 85px !important;
+        font-size: 10px;
+        margin-bottom: -35px;
+    }
+
+    .open {
+        height: 50px !important;
+        width: 50px !important;
+        margin-right: -70px;
+        margin-bottom: -14px;
+    }
+    .icon_close {
+        font-size: 15px;
+        margin-left: 180px;
+    }
+    .fas{
+        font-size: 20px;
+    }
+    .container_chat {
+        height: 575px;
+        width: 290px;
+        border: 2px solid #FA0E8F;
+        margin-top: 60px !important;
+        margin-left: -70px;
+    }
+    .admin1 img{
+        height: 50px;
+    }
+    .row2 img{
+        height: 50px;
+    }
+}

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/News_latest.css">
+	<link rel="stylesheet" href="../css/News_user_ads.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/modal.css">
+	<link rel="stylesheet" href="../adaptation/Avtarizacia.css">
+	<link rel="stylesheet" href="../css/scrol.css">
+	<link rel="stylesheet" href="../css/News_checkbox_forms.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../libs/slick/slick.css">
+	<link rel="stylesheet" href="../libs/slick/slick-theme.css">
+	<title>ProfitGeek</title>
+</head>
+<body>
+<div class="container">
+	<nav class="navbar navbar-expand-lg navbar-light">
+
+		<a class="navbar-brand" href="../index.html"><img src="../images/Logo.webp" alt="no photo" id="header_logo"></a>
+        <button class="navbar-toggler" type="button" id="buttonBurger" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-bar-btn"><i class="fas fa-bars" onclick="openNav()"></i></span>
+            <!--            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>-->
+          </button>
+          <div class="collapse old_navbar navbar-collapse justify-content-between align-items-center menu" id="navbarNav" class="sidenav">
+
+
+            <ul class="nav  nav_ul nav-pill justify-content-center align-items-center">
+                <li class="nav-item fs-5"><a href="../html/AboutAs.html" class="menu_a">О нас</a></li>
+                <li class="nav-item fs-5"><a href="../html/services.html" class="menu_a">Услуги</a></li>
+                <li class="nav-item fs-5"><a href="../html/Project_1.html" class="menu_a">Проекты</a></li>
+                <li class="nav-item fs-5"><a href="../html/Communication.html" class="menu_a">Общение</a></li>
+                <li class="nav-item fs-5"><a href="../html/News.html" class="menu_a">Новости</a></li>
+                <li class="nav-item fs-5"><a href="../html/Contacts.html" class="menu_a">Контакты</a></li>
+            </ul>
+            <div class="d-flex justify-content-center align-items-center">
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="fas fa-bell iconca"></i>
+                </a></li>
+
+
+                <li class="header_icon_li header_icon2">
+                    <a class="text_row11_a" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fas fa-user-circle iconca"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="far fa-globe iconca"></i>
+                </a></li>
+            </div>
+        </div>
+
+        <div id="mySidenav" class="sidenav new-slide">
+            <div class="d-flex  new-icon justify-content-between align-items-center">
+                <ul class="d-flex  justify-content-between align-items-center">
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="fas fa-bell iconca"></i>
+                </a></li>
+
+
+                <li class="header_icon_li header_icon2">
+                    <a class="text_row11_a" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fas fa-user-circle iconca"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item header_icon_li"><a class="nav-link" href="#">
+                    <i class="far fa-globe iconca"></i>
+                </a></li>
+                </ul>
+
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+
+
+            </div>
+
+            <ul class="nav new-nav nav_ul nav-pill ">
+                <li class="nav-item fs-5"><a href="../html/AboutAs.html" class="menu_a">О нас</a></li>
+                <li class="nav-item fs-5"><a href="../html/services.html" class="menu_a">Услуги</a></li>
+                <li class="nav-item fs-5"><a href="../html/Project_1.html" class="menu_a">Проекты</a></li>
+                <li class="nav-item fs-5"><a href="../html/Communication.html" class="menu_a">Общение</a></li>
+                <li class="nav-item fs-5"><a href="../html/News.html" class="menu_a">Новости</a></li>
+                <li class="nav-item fs-5"><a href="../html/Contacts.html" class="menu_a">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-content2">
+				<div class="button-modal">
+					<button type="button" class="icon_close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+				</div>
+				<div class="modal_header">
+					<div class="modal-title"> <a class="text_row11_a" data-bs-toggle="modal"  ><p>Авторизация</p></a></div>
+					<div class="modal-title"><a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal2"><p>Регистрация</p></a></div>
+				</div>
+				<form class="form-img" action="#">
+					<div class="form-input">
+						<div class="modal-form">
+							<input type="text" id="fno" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Логин">
+						</div>
+						<div class="modal-form">
+							<input type="text" id="phone_number" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Пароль">
+						</div>
+					</div>
+					<div class="chekbox">
+						<div class="row_1_checkbox_div">
+							<input type="checkbox" class="input2" id="condition_new" name="condition_New">
+							<label class="section8label" for="condition_new"><p>Запомнить</p></label>
+						</div>
+						<div class="row_1_checkbox_div">
+							<input type="checkbox" class="input2" id="condition_neww" name="condition_New">
+							<label class="section8label" for="condition_neww"><p>Я не робот</p></label>
+						</div>
+					</div>
+
+				</form>
+
+				<div class="modal-footer">
+					<a href="Profile.html"> <button class="btn-trans">Войти</button></a>
+				</div>
+				<div class="link_wite"><p>Забыли пароль? <span class="link_orange">Восстановите его !</span></p></div>
+			</div>
+		</div>
+	</div>
+
+	<!--    Modal2-->
+	<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-content2">
+				<div class="button-modal">
+					<button type="button" class="icon_close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+				</div>
+				<div class="modal_header">
+					<div class="modal-title"> <a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal" ><p>Авторизация</p></a></div>
+					<div class="modal-title"><a class="text_row11_a" data-bs-toggle="modal" ><p>Регистрация</p></a></div>
+				</div>
+				<form action="#">
+
+					<div class="form-input1">
+						<div class="form-img1" >
+
+							<div class="modal-form">
+								<input type="text" id="fno1" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Логин">
+							</div>
+							<div class="modal-form">
+								<input type="text" id="number2" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="E-mail">
+							</div>
+							<div class="modal-form">
+								<input type="text" id="number3" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Пароль">
+							</div>
+						</div>
+						<div class="modal-form">
+							<input type="text" id="number4" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Повторите пароль">
+						</div>
+						<div class="txt_pinck">Отображаемое имя:</div>
+						<div class="modal-form">
+
+							<input type="text" id="number5" name="Phone_Number" class="modal-form-input" maxlength="15" placeholder="Ник">
+						</div>
+					</div>
+
+					<div class="row_1_checkbox_div1">
+						<div class="txt-box"><input type="checkbox" class="input2" id="condition_neww1" name="condition_New">
+							<label class="section8label" for="condition_neww1"><p>Я принимаю условия “Пользовательского соглашения”</p></label></div>
+					</div>
+
+
+
+				</form>
+
+				<div class="modal-footer">
+					<a class="text_row11_a" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal"> <button class="btn-trans2">Зарегистироваться</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<main class="main">
+		<!-- row_1 -->
+		<div class="row">
+			<div class="row_1">
+				<div class="col-3">
+					<button type="button" class="row_1_button">Объявления пользователя</button>
+				</div>
+				<div class="col-9">
+
+				</div>
+			</div>
+		</div>
+		<div class="container_modal">
+			<div class="row">
+				<div class="col-12">
+					<div class="modal_close"><a href="News.html" class="icon_close"><i class="fas fa-times"></i></a></div>
+				</div>
+			</div>
+			<div class="modal_wrapper">
+				<div class="row_1_wrapper">
+					<div class="row">
+						<div class="col-5">
+							<div class="row_1_div1">
+								<!-- <div class="row_1_img">
+									<div class="row_1_btn_modal">Объявление</div>
+								</div> -->
+								<div class="rev_slider_user_ads_max">
+									<div class="slide_max">
+										<div class="carousel_card_max">
+											<img src="../images/News_useer_ads_carousel1.webp" alt="no photo"> 
+										</div>
+									</div>
+									<div class="slide_max">
+										<div class="carousel_card_max">
+											<img src="../images/News_useer_ads_carousel2.webp" alt="no photo">
+										</div>
+									</div>
+									<div class="slide_max">
+										<div class="carousel_card_max">
+											<img src="../images/News_useer_ads_carousel3.webp" alt="no photo">
+										</div>
+									</div>
+									<div class="slide_max">
+										<div class="carousel_card_max">
+											<img src="../images/News_useer_ads_carousel3.webp" alt="no photo">
+										</div>
+									</div>
+								</div>
+								<div class="rev_slider_user_ads_min">
+									<div class="slide">
+										<div class="carousel_card">
+											<img src="../images/News_useer_ads_carousel1.webp" alt="no photo">
+										</div>
+									</div>
+									<div class="slide">
+										<div class="carousel_card">
+											<img src="../images/News_useer_ads_carousel2.webp" alt="no photo">
+										</div>
+									</div>
+									<div class="slide">
+										<div class="carousel_card">
+											<img src="../images/News_useer_ads_carousel3.webp" alt="no photo">
+										</div>
+									</div>
+									<div class="slide">
+										<div class="carousel_card">
+											<img src="../images/News_useer_ads_carousel3.webp" alt="no photo">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-7">
+							<div class="row_1_div2">
+								<p class="row_1_div2_p1">Плавающий шар-светильник "</p>
+								<div class="row_1_div2_numbers">
+									<div class="row_10_efect">
+										<div class="col-1">
+											<div class="row10_div">
+												<p>169</p>
+											</div>
+										</div>
+									</div>
+									<div class="row_10_efect">
+										<div class="col-1">
+											<div class="row10_div">
+												<p>45</p>
+											</div>
+										</div>
+									</div>
+									<div class="row_10_efect">
+										<div class="col-1">
+											<div class="row10_div">
+												<p>13</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row_3_modal">
+								<div class="col-6">
+									<div class="wrapper_div">
+										<div class="row_3_div1_text">
+											<p class="row_3_div1_p1">Цена:</p>
+											<p class="row_3_div1_p2">5 798 руб.</p>
+										</div>
+										<div class="row_3_div2_text">
+											<p class="row_3_div1_p1">Количество:</p>
+											<div class="number">
+												<span class="minus">-</span>
+												<input class="num" type="text" value="1" disabled="disabled"/>
+												<span class="plus">+</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="modal_wrapper_btn">
+										<button type="button" class="row_3_modal-btn">Открыть сделку</button>
+									</div>
+								</div>
+							</div>
+							<div class="modal_contact">
+								<div class="col-5">
+									<div class="modal_contact_div1">
+										<p class="contact_div1_p1">Категория:</p>
+										<p class="contact_div1_p1">Состояние:</p>
+										<p class="contact_div1_p1">Телефон:</p>
+										<p class="contact_div1_p1">Способ связи:</p>
+									</div>
+								</div>
+								<div class="col-7">
+									<div class="modal_contact_div2">
+										<p class="contact_div1_p2">Продажа</p>
+										<p class="contact_div1_p2">Новое</p>
+										<p class="contact_div1_p2">876543675432</p>
+										<p class="contact_div1_p2">Почта marta111@gmail.com</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="modal_row_3">
+						<div class="col-4">
+							<div class="modal_row_3_div1">
+								<p class="modal_row_3_p1">Бизнес-идеи / От Archy035</p>
+								<p class="modal_row_3_p2">Дата публикации:<span class="modal_row_3_span">07.01.2021</span></p>
+							</div>
+						</div>
+						<div class="col-8">
+							<div class="modal_row_3_div2">
+								<div class="row_2_div3_icon">
+									<div class="row_2_div3_img_like">
+										<i class="fas fa-thumbs-up"></i>
+									</div>
+									<p class="row_2_div_3_p">15</p>
+								</div>
+								<div class="row_2_div3_icon">
+									<div class="row_2_div3_img_dizlaik">
+										<i class="fas fa-thumbs-down"></i>
+									</div>
+									<p class="row_2_div_3_p">0</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="row">
+				<div class="modal_row_wrapper">
+					<div class="col-3">
+						<div class="modal_div1">
+							<div class="modal_div1_img">
+								<img src="../images/modal_new_img.webp" alt="no photo">
+							</div>
+							<div class="modal_div1_text">
+								<p class="div1_p1">Автор публикации:<span>Admin</span></p>
+								<p class="div1_p2">Не в сети 5 дней</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="modal_div2">
+							<p class="div2_p1">Просмотров: 23</p>
+							<div class="modal_div2_line1"></div>
+							<p class="div2_p2">Комментариев: 12</p>
+							<div class="modal_div2_line2"></div>
+							<p class="div2_p3">Публикаций: 45</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="modal_div3">
+							<p class="div3_p">Регистрация: <span>07.01.2021</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="row">
+			<div class="modal_textarea_wrapper">
+					<textarea name="general_Information" id="General_Information" cols="110
+					"rows="5" class="textarea_newws_latter" placeholder="Написать комментарий..."></textarea>
+				<label for="file_open" class="filee_open">
+					<img src="../images/icon_file.webp" alt="no photo">
+				</label>
+				<input type="file" hidden id="file_open">
+				<div class="btn_textarea">
+					<button type="button" class="btn-modal_textarea">Отправить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>  
+	</main>
+	<div class="row">
+		<div class="row_modal_slacks">
+			<div class="col-6">
+				<div class="modal_slack_left">
+					<p class="slack_text1">Прерыдущая новость</p>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="modal_slack_right">
+					<p class="slack_text2">Следуйщая новость</p>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-- row____15 -->
+		<div class="row">
+			<div class="row_15">
+				<div class="row_15_line1"></div>
+				<div class="row_15_line2"></div>
+				<div class="row_15_line3"></div>
+			</div>
+		</div>
+		<!-- row____16 -->
+		<footer class="footer">	
+			<div class="footer_container">
+				<p class="footer_p1">Copyright © 2017 Profitgeek.com™. Все права защищены.</p>
+				<p class="footer_p2">Profit-geek.com это собственность Profit Geek HK Ltd., всемирный онлайн-консалтинг и служба</p>
+			</div>
+		</footer>
+</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="../js/jquery-3.6.0.min.js"></script>
+	<script src="../libs/slick/slick.min.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+</html>
