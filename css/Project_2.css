@@ -308,6 +308,8 @@ body {
 	padding: 5px;
 }
 .row_12_btn {
+	width: 98%;
+	height: 140px;
 	background-color: transparent;
 	border: 3.5px solid #FFBC11;
 	box-sizing: border-box;
@@ -315,6 +317,8 @@ body {
 	border-radius: 14px;
 }
 .row_12_div {
+	width: 130%;
+	height: 160px;
 	display: flex;
 	align-items: center;
 	justify-content: center;

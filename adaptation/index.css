@@ -46,9 +46,9 @@
         font-size: 12px;
         margin-right: 0;
     }
-    .btn3{
-        margin-left: 150px;
-    }
+    /*.btn3{*/
+    /*    margin-left: 150px;*/
+    /*}*/
     .services-item{
         padding:5px;
         font-size:15px;
@@ -57,11 +57,12 @@
 }
 @media only screen and (max-width: 900px){
     .autoplay{
-        width: 100%;
+        margin-left: 15px;
+        width: 95% !important;
     }
 
     .slick-dots {
-        margin-left: 10px !important;
+        margin-left: 30px !important;
     }
 }
 
@@ -82,9 +83,9 @@
         font-size: 12px;
         margin-right: 0;
     }
-    .btn3{
-        margin-left: 150px;
-    }
+    /*.btn3{*/
+    /*    margin-left: 150px;*/
+    /*}*/
     .services-item{
         padding:5px;
         font-size:15px;
@@ -115,9 +116,9 @@
         font-size: 12px;
         margin-right: 0;
     }
-    .btn3{
-        margin-left: 150px;
-    }
+    /*.btn3{*/
+    /*    margin-left: 150px;*/
+    /*}*/
     .services-item{
         padding:10px;
         font-size:13px;
@@ -221,7 +222,9 @@
     .btn-chat{
         height: 30px;
        font-size: 8px;
-      
+        width: 135px;
+
+
     }
     .container-box2 {
         margin-top: 145px;
@@ -240,10 +243,10 @@
         font-size: 8px;
         margin-left: -70px;
     }
-    .btn3 {
-        margin-left: 150px;
-        font-size: 12px;
-    }
+    /*.btn3 {*/
+    /*    margin-left: 150px;*/
+    /*    font-size: 12px;*/
+    /*}*/
     .btn2-button {
         height: 40px;
         width: 160px;
@@ -276,5 +279,15 @@
         top: 50px;
         right: -31px;
         display: none;
+    }
+    .autoplay{
+        margin-left: 15px;
+        width: 95% !important;
+    }
+    .btn3{
+        font-size: 10px;
+        width: 120px;
+        height: 25px;
+        margin-left: 90px;
     }
 }

@@ -448,5 +448,26 @@ function openNav() {
 }
 
 
+// Investment range block
+let input_number = document.querySelectorAll('.row_18_div .btn-row_18')
+let input_range = document.querySelectorAll('.row_18_div .rang_row_18')
+let profit = document.querySelectorAll('.row .row_18_p2 span')
+let percent = 0
+
+if (input_range) {
+	input_range.forEach((el, i) => {
+		el.addEventListener('change', () => {
+			if (i === 0) {
+				percent = 20
+			} else if (i === 1) {
+				percent = 50
+			} else if (i === 3) {
+				percent = 70
+			}
+			profit[i].innerText = input_number[i].value * percent / 100 + ' руб.'
+		})
+	})
+}
+
 
 

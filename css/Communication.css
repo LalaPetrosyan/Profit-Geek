@@ -193,4 +193,7 @@ body {
 	filter: drop-shadow(0px 0px 30px rgba(250, 14, 143, 0.7));
 	border-radius: 20px;
 	margin-bottom: 20px;
-} 
+}
+a{
+	text-decoration: none;
+}
