@@ -86,7 +86,7 @@ body{
 .box5{
     position: absolute;
     margin-left: 37.5%;
-    margin-top: 32%;
+    margin-top: 36% !important;
 }
 .box6{
     position: absolute;
