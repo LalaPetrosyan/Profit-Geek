@@ -11,8 +11,11 @@ body{
 .autoplay{
     margin-top: 120px;
     width: 800px !important;
-    margin-left: 200px;
+    margin-left: 250px;
 
+}
+.slick-dots{
+    margin-left: 50px !important;
 }
 .rev_slider{
     width: 1000px;
@@ -50,9 +53,9 @@ body{
 .txt{
     color: white;
     font-family: Comfortaa;
-    width: 600px;
     font-size: 20px;
     margin-top:20px;
+    text-align: center;
 }
 .btn-chat{
     margin-top: 30px;
@@ -184,7 +187,7 @@ body{
 }
 .slick-dots{
     text-align: left !important;
-    margin-left: 150px !important;
+    margin-left: 50px !important;
     width: 90% !important;
 }
 .slick-dots li.slick-active button:before {
