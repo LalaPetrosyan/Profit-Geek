@@ -174,6 +174,8 @@ nav {
 .chekbox{
 	display: flex;
 	justify-content: space-evenly;
+	margin-top: 15px;
+	background-color: black;
 }
 .row_1_checkbox_div{
 	display: flex;

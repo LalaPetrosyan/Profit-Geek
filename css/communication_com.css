@@ -1,6 +1,12 @@
 body {
     background-color: #000000 !important;
 }
+
+.btn-red{
+    display: flex;
+    align-items: center;
+}
+
 .icon_close {
 	width: 40% !important;
 }

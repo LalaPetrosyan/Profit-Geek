@@ -306,6 +306,12 @@ body {
 	box-shadow: 0px 0px 20px rgba(250, 14, 143, 0.7);
 	border-radius: 14px;
 	padding: 5px;
+	width: 130%;
+	height: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: -60px;
 }
 .row_12_btn {
 	width: 98%;
@@ -316,13 +322,7 @@ body {
 	box-shadow: 0px 0px 20px rgba(255, 188, 17, 0.7);
 	border-radius: 14px;
 }
-.row_12_div {
-	width: 130%;
-	height: 160px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
 .row_12_p1 {
 	font-style: normal;
 	font-weight: bold;
