@@ -12,7 +12,6 @@ a{
         font-family: Comfortaa;
         font-style: normal;
         font-weight: normal;
-        font-weight: normal;
         font-size: 16px;
         line-height: 19px;
         color: #FA0E8F !important;
@@ -43,7 +42,7 @@ a{
 
 }
 .container-profile{
-    margin-bottom: 100px !important;
+    display: flex;
 }
 .icon-item{
     color: white;
@@ -65,7 +64,6 @@ a{
     box-shadow: 0px 0px 30px rgba(250, 14, 143, 0.7);
     border-radius: 20px;
     margin-left: 70px;
-
 }
 .chat_button_area{
     margin-top: 30px;
@@ -181,4 +179,7 @@ a{
 .a_chat{
     color: #FA0E8F  !important;
 
+}
+main{
+    margin-bottom: 100px;
 }
